@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-primary: #3b82f6; /* Blue-500 */
   --color-primary-dark: #2563eb; /* Blue-600 */
@@ -24,6 +26,18 @@
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --shadow-glass: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+  .dark {
+    --color-background: #0f172a; /* Slate-900 */
+    --color-foreground: #f8fafc; /* Slate-50 */
+    --color-card: #1e293b; /* Slate-800 */
+    --color-card-foreground: #f8fafc;
+    --color-muted: #334155; /* Slate-700 */
+    --color-muted-foreground: #94a3b8; /* Slate-400 */
+    --color-border: #334155; /* Slate-700 */
+  }
 }
 
 @layer base {

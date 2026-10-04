@@ -451,11 +451,11 @@ export default function SentencePracticePage() {
   };
 
   return (
-    <main className="min-h-screen pb-20 md:pb-0 bg-[#0f172a] text-white flex flex-col font-sans overflow-x-hidden">
+    <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 dark:bg-[#0f172a] text-slate-800 dark:text-white flex flex-col font-sans overflow-x-hidden transition-colors">
       <Header />
       
       {/* Top XP Bar */}
-      <div className="sticky top-0 z-50 bg-[#1e293b] border-b border-slate-700 p-4 shadow-md flex justify-between items-center">
+      <div className="sticky top-0 z-50 bg-white dark:bg-[#1e293b] border-b border-slate-200 dark:border-slate-700 p-4 shadow-sm dark:shadow-md flex justify-between items-center transition-colors">
         <div className="flex items-center gap-2">
           <div className="bg-emerald-500 w-10 h-10 rounded-full flex items-center justify-center shadow-[0_0_15px_rgba(16,185,129,0.5)]">
             <Award className="w-6 h-6 text-white" />

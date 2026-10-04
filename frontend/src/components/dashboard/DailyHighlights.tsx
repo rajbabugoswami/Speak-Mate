@@ -30,37 +30,37 @@ export default function DailyHighlights() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
       {/* Daily Sentence */}
-      <div className="bg-white rounded-3xl p-6 shadow-xl border-2 border-slate-100 relative overflow-hidden group hover:border-blue-200 transition-colors">
-        <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-50 rounded-full group-hover:scale-150 transition-transform duration-700 ease-out" />
+      <div className="bg-white dark:bg-[#1e293b] rounded-3xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-xl border border-slate-100 dark:border-2 dark:border-slate-700 relative overflow-hidden group hover:border-blue-200 dark:hover:border-blue-500/50 hover:shadow-lg transition-all dark:transition-colors">
+        <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-50 dark:bg-blue-500/10 rounded-full group-hover:scale-150 transition-transform duration-700 ease-out" />
         
         <div className="flex items-center gap-2 mb-4 relative z-10">
-          <div className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-500/20 text-blue-600 dark:text-blue-400 flex items-center justify-center">
             <Sparkles className="w-4 h-4" />
           </div>
-          <h3 className="text-sm font-black text-slate-800 uppercase tracking-widest">Daily Sentence</h3>
+          <h3 className="text-sm font-black text-slate-800 dark:text-slate-300 uppercase tracking-widest">Daily Sentence</h3>
         </div>
         
-        <p className="text-2xl font-black text-slate-800 mb-2 relative z-10 leading-tight">
+        <p className="text-2xl font-black text-slate-900 dark:text-white mb-2 relative z-10 leading-tight">
           "The journey of a thousand miles begins with a single step."
         </p>
-        <p className="text-sm font-bold text-slate-500 mb-6 relative z-10 bg-slate-50 inline-block px-3 py-1.5 rounded-lg border border-slate-100">
-          <span className="text-blue-500 mr-2">Meaning:</span>Great things start with small beginnings.
+        <p className="text-sm font-bold text-slate-600 dark:text-slate-400 mb-6 relative z-10 bg-slate-50 dark:bg-[#0f172a] inline-block px-3 py-1.5 rounded-lg border border-slate-100 dark:border-slate-700">
+          <span className="text-blue-600 dark:text-blue-400 mr-2">Meaning:</span>Great things start with small beginnings.
         </p>
         
         <div className="flex items-center gap-3 relative z-10 mt-auto">
           <button 
             onClick={() => speakText("The journey of a thousand miles begins with a single step.", 'sentence')}
-            className={`w-12 h-12 rounded-full flex items-center justify-center transition-all ${
+            className={`w-12 h-12 rounded-full flex items-center justify-center transition-all border ${
               isPlayingSentence 
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30 animate-pulse' 
-                : 'bg-blue-50 text-blue-600 hover:bg-blue-100'
+                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30 animate-pulse border-blue-600 dark:border-blue-500' 
+                : 'bg-slate-50 dark:bg-[#0f172a] text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800 border-slate-200 dark:border-slate-700'
             }`}
           >
             {isPlayingSentence ? <Volume2 className="w-6 h-6" /> : <PlayCircle className="w-6 h-6" />}
           </button>
           <Link 
             href="/practice"
-            className="flex-1 bg-slate-800 text-white font-bold rounded-full py-3 px-6 text-center hover:bg-slate-700 transition-colors shadow-lg hover:shadow-xl"
+            className="flex-1 bg-slate-900 dark:bg-gradient-to-r dark:from-blue-600 dark:to-indigo-600 text-white font-bold dark:font-black rounded-full py-3 px-6 text-center hover:bg-blue-600 dark:hover:from-blue-500 dark:hover:to-indigo-500 transition-colors shadow-md hover:shadow-xl hover:shadow-blue-600/20 dark:shadow-lg"
           >
             Practice Saying This
           </Link>

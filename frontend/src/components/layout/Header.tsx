@@ -2,7 +2,7 @@
 
 import { Bell, Search, X, BookOpen, Mic, MessageSquare, Star, BrainCircuit, CheckCircle2, Flame, Award, User, Settings, LogOut, HelpCircle, TrendingUp } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
 
@@ -26,7 +26,15 @@ export default function Header() {
   const [isNotifOpen, setIsNotifOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [notifications, setNotifications] = useState(initialNotifications);
+  const [userName, setUserName] = useState("Guest");
   const router = useRouter();
+
+  useEffect(() => {
+    const name = localStorage.getItem("userName");
+    if (name) {
+      setUserName(name);
+    }
+  }, []);
 
   const filteredModules = searchableModules.filter(mod => 
     mod.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -47,8 +55,8 @@ export default function Header() {
       <header className="sticky top-0 z-40 w-full glass border-b border-border bg-white/80 backdrop-blur-md relative">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
-              S
+            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-md uppercase">
+              {userName.charAt(0)}
             </div>
             <Link href="/" onClick={closeDropdowns} className="font-black text-xl tracking-tight text-slate-800">
               Speak<span className="text-blue-600">Mate</span>
@@ -130,7 +138,7 @@ export default function Header() {
                 onClick={() => { setIsNotifOpen(false); setIsProfileOpen(!isProfileOpen); }}
                 className={`w-10 h-10 rounded-full bg-slate-200 overflow-hidden shadow-sm ring-2 transition-all ${isProfileOpen ? 'ring-blue-500 scale-105' : 'ring-transparent hover:ring-blue-300'}`}
               >
-                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="User Avatar" className="w-full h-full object-cover" />
+                <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(userName)}`} alt="User Avatar" className="w-full h-full object-cover" />
               </button>
 
               {/* Profile Dropdown */}
@@ -146,10 +154,10 @@ export default function Header() {
                     <div className="p-5 border-b border-slate-100 bg-gradient-to-br from-slate-50 to-slate-100">
                       <div className="flex items-center gap-3">
                         <div className="w-12 h-12 rounded-full bg-slate-200 overflow-hidden shadow-sm">
-                          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="User Avatar" className="w-full h-full object-cover" />
+                          <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(userName)}`} alt="User Avatar" className="w-full h-full object-cover" />
                         </div>
                         <div>
-                          <h3 className="font-black text-slate-800 text-lg leading-tight">Felix</h3>
+                          <h3 className="font-black text-slate-800 text-lg leading-tight">{userName}</h3>
                           <p className="text-xs font-bold text-blue-500">Intermediate (B1)</p>
                         </div>
                       </div>
@@ -159,12 +167,12 @@ export default function Header() {
                       <Link href="/profile" onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
                         <User className="w-5 h-5 text-slate-400" /> My Profile
                       </Link>
-                      <button onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
+                      <Link href="/progress" onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
                         <TrendingUp className="w-5 h-5 text-slate-400" /> Progress Report
-                      </button>
-                      <button onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
+                      </Link>
+                      <Link href="/profile" onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
                         <Settings className="w-5 h-5 text-slate-400" /> Settings
-                      </button>
+                      </Link>
                       <button onClick={closeDropdowns} className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-50 rounded-xl transition-colors text-left text-slate-600 font-medium">
                         <HelpCircle className="w-5 h-5 text-slate-400" /> Help & Support
                       </button>

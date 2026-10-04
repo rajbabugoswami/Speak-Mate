@@ -632,17 +632,16 @@ export default function KidsPage() {
           })}
         </div>
 
-        {/* Floating Quiz CTA after 5 words */}
+        {/* Static Quiz CTA at the bottom */}
         {learnedSet.size >= Math.min(5, data.length) && (
-          <motion.div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-30"
-            initial={{ y:100,opacity:0 }} animate={{ y:0,opacity:1 }}>
-            <button onClick={startQuiz}
-              className="flex items-center gap-2 text-white font-black text-lg px-8 py-4 rounded-full shadow-2xl"
-              style={{ background:`linear-gradient(135deg,${catInfo.from},${catInfo.to})`,
-                animation:"bounce 1s infinite" }}>
-              <Trophy className="w-5 h-5" /> 🎯 Play Quiz Now!
-            </button>
-          </motion.div>
+          <div className="flex justify-center mt-8 mb-12">
+            <motion.button onClick={startQuiz}
+              initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}
+              className="flex items-center gap-2 text-white font-black text-lg px-8 py-4 rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-transform"
+              style={{ background: `linear-gradient(135deg, ${catInfo.from}, ${catInfo.to})` }}>
+              <Trophy className="w-6 h-6" /> 🎯 Play Quiz Now!
+            </motion.button>
+          </div>
         )}
         <BottomNav />
       </main>
