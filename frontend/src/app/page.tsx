@@ -9,6 +9,7 @@ import DailyHighlights from "@/components/dashboard/DailyHighlights";
 
 export default function Home() {
   const [userName, setUserName] = useState<string | null>(null);
+  const [goalMins, setGoalMins] = useState(0);
 
   useEffect(() => {
     const storedName = localStorage.getItem("userName");
@@ -16,10 +17,13 @@ export default function Home() {
       window.location.href = "/login";
     } else {
       setUserName(storedName);
+      setGoalMins(parseInt(localStorage.getItem("speakingMin") || "5"));
     }
   }, []);
 
   if (!userName) return null; // Show nothing while checking
+
+  const goalPercentage = Math.min(100, Math.round((goalMins / 60) * 100));
 
   return (
     <main className="min-h-screen pb-20 md:pb-0">
@@ -36,13 +40,13 @@ export default function Home() {
           <div className="relative z-10">
             <h2 className="text-2xl font-bold mb-2">Daily Goal Progress</h2>
             <div className="flex items-end gap-2 mb-4">
-              <span className="text-5xl font-black">45</span>
+              <span className="text-5xl font-black">{goalMins}</span>
               <span className="text-lg font-medium text-white/80 mb-1">/ 60 mins</span>
             </div>
             <div className="w-full bg-white/20 rounded-full h-3 mb-2">
-              <div className="bg-white rounded-full h-3 transition-all duration-1000 ease-out" style={{ width: "75%" }}></div>
+              <div className="bg-white rounded-full h-3 transition-all duration-1000 ease-out" style={{ width: `${goalPercentage}%` }}></div>
             </div>
-            <p className="text-sm text-white/80 font-medium">Just 15 more minutes to reach your goal today!</p>
+            <p className="text-sm text-white/80 font-medium">Just {Math.max(0, 60 - goalMins)} more minutes to reach your goal today!</p>
           </div>
         </div>
 
