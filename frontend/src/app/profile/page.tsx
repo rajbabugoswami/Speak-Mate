@@ -8,12 +8,14 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function ProfilePage() {
-  const [userName, setUserName] = useState<string>("Felix Sharma");
+  const [userName, setUserName] = useState<string>("Guest");
   const [statsData, setStatsData] = useState({ streak: "0", words: "0" });
 
   useEffect(() => {
     const name = localStorage.getItem("userName");
-    if (name) setUserName(name + " Sharma"); // Added Sharma just to match the UI feel
+    if (name) {
+      setUserName(name);
+    }
     
     setStatsData({
       streak: localStorage.getItem("dayStreak") || "1",
@@ -35,15 +37,15 @@ export default function ProfilePage() {
   };
 
   const openNameEdit = () => {
-    setTempName(userName.replace(" Sharma", ""));
+    setTempName(userName === "Guest" ? "" : userName);
     setModalType("name");
     setIsModalOpen(true);
   };
 
   const saveName = () => {
-    if (tempName) {
-      localStorage.setItem("userName", tempName);
-      setUserName(tempName + " Sharma");
+    if (tempName.trim()) {
+      localStorage.setItem("userName", tempName.trim());
+      setUserName(tempName.trim());
     }
     setIsModalOpen(false);
   };
