@@ -4,10 +4,33 @@ import { useState, useEffect } from "react";
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
 import AdBanner from "@/components/ads/AdBanner";
-import { UserCheck, Briefcase, Mic, Smile, Star, ArrowRight, ArrowLeft, Clock, Users, Shirt, Heart, AlertTriangle, Target, Zap, Brain, CheckCircle2, XCircle } from "lucide-react";
+import { UserCheck, Briefcase, Mic, Smile, Star, ArrowRight, ArrowLeft, Clock, Users, Shirt, Heart, AlertTriangle, Target, Zap, Brain, CheckCircle2, XCircle, type LucideIcon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const personalityTopics = [
+type QuizType = {
+  question: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+};
+
+type PersonalityTopic = {
+  id: string;
+  title: string;
+  hindi: string;
+  icon: LucideIcon;
+  color: string;
+  image: string;
+  description: string;
+  duration: string;
+  level: string;
+  tips: { point: string; hi: string; detail: string }[];
+  mistakes: string[];
+  actionPlan: string;
+  quiz?: QuizType;
+};
+
+const personalityTopics: PersonalityTopic[] = [
   {
     id: "confidence",
     title: "Confidence Building",
@@ -397,66 +420,70 @@ export default function PersonalityPage() {
                   </div>
 
                   {/* Quiz Section */}
-                  {activeData?.quiz && (
-                    <div className="mt-12 bg-[#1e293b] border-2 border-slate-700 rounded-3xl p-8 relative overflow-hidden shadow-2xl">
-                      <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl" />
-                      <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
-                        <Brain className="w-6 h-6 text-blue-400" /> Quick Quiz
-                      </h3>
-                      
-                      <div className="bg-[#0f172a] rounded-2xl p-6 border border-slate-700 relative z-10">
-                        <h4 className="text-lg font-bold text-slate-200 mb-6">{activeData.quiz.question}</h4>
+                  {(() => {
+                    const quiz = activeData?.quiz;
+                    if (!quiz) return null;
+                    return (
+                      <div className="mt-12 bg-[#1e293b] border-2 border-slate-700 rounded-3xl p-8 relative overflow-hidden shadow-2xl">
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl" />
+                        <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
+                          <Brain className="w-6 h-6 text-blue-400" /> Quick Quiz
+                        </h3>
                         
-                        <div className="space-y-3">
-                          {activeData.quiz.options.map((option: string, idx: number) => {
-                            const isSelected = selectedAnswer === idx;
-                            const isCorrect = activeData.quiz.answer === idx;
-                            
-                            let btnClass = "border-slate-700 bg-[#1e293b] text-slate-300 hover:border-slate-500";
-                            if (showResult) {
-                              if (isCorrect) btnClass = "border-emerald-500 bg-emerald-500/10 text-emerald-400";
-                              else if (isSelected && !isCorrect) btnClass = "border-red-500 bg-red-500/10 text-red-400";
-                            } else if (isSelected) {
-                              btnClass = "border-blue-500 bg-blue-500/10 text-blue-400";
-                            }
-                            
-                            return (
-                              <button
-                                key={idx}
-                                disabled={showResult}
-                                onClick={() => setSelectedAnswer(idx)}
-                                className={`w-full text-left p-4 rounded-xl border-2 font-medium transition-colors flex items-center justify-between ${btnClass}`}
-                              >
-                                {option}
-                                {showResult && isCorrect && <CheckCircle2 className="w-5 h-5" />}
-                                {showResult && isSelected && !isCorrect && <XCircle className="w-5 h-5" />}
-                              </button>
-                            );
-                          })}
-                        </div>
-                        
-                        {!showResult && selectedAnswer !== null && (
-                          <button 
-                            onClick={() => setShowResult(true)}
-                            className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl transition-colors"
-                          >
-                            Check Answer
-                          </button>
-                        )}
-                        
-                        {showResult && (
-                          <div className={`mt-6 p-4 rounded-xl border ${selectedAnswer === activeData.quiz.answer ? 'bg-emerald-500/10 border-emerald-500/30' : 'bg-red-500/10 border-red-500/30'}`}>
-                            <p className="font-bold text-white mb-1">
-                              {selectedAnswer === activeData.quiz.answer ? '🎉 Correct!' : '❌ Not quite right.'}
-                            </p>
-                            <p className="text-sm text-slate-300 font-medium">
-                              {activeData.quiz.explanation}
-                            </p>
+                        <div className="bg-[#0f172a] rounded-2xl p-6 border border-slate-700 relative z-10">
+                          <h4 className="text-lg font-bold text-slate-200 mb-6">{quiz.question}</h4>
+                          
+                          <div className="space-y-3">
+                            {quiz.options.map((option: string, idx: number) => {
+                              const isSelected = selectedAnswer === idx;
+                              const isCorrect = quiz.answer === idx;
+                              
+                              let btnClass = "border-slate-700 bg-[#1e293b] text-slate-300 hover:border-slate-500";
+                              if (showResult) {
+                                if (isCorrect) btnClass = "border-emerald-500 bg-emerald-500/10 text-emerald-400";
+                                else if (isSelected && !isCorrect) btnClass = "border-red-500 bg-red-500/10 text-red-400";
+                              } else if (isSelected) {
+                                btnClass = "border-blue-500 bg-blue-500/10 text-blue-400";
+                              }
+                              
+                              return (
+                                <button
+                                  key={idx}
+                                  disabled={showResult}
+                                  onClick={() => setSelectedAnswer(idx)}
+                                  className={`w-full text-left p-4 rounded-xl border-2 font-medium transition-colors flex items-center justify-between ${btnClass}`}
+                                >
+                                  {option}
+                                  {showResult && isCorrect && <CheckCircle2 className="w-5 h-5" />}
+                                  {showResult && isSelected && !isCorrect && <XCircle className="w-5 h-5" />}
+                                </button>
+                              );
+                            })}
                           </div>
-                        )}
+                          
+                          {!showResult && selectedAnswer !== null && (
+                            <button 
+                              onClick={() => setShowResult(true)}
+                              className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl transition-colors"
+                            >
+                              Check Answer
+                            </button>
+                          )}
+                          
+                          {showResult && (
+                            <div className={`mt-6 p-4 rounded-xl border ${selectedAnswer === quiz.answer ? 'bg-emerald-500/10 border-emerald-500/30' : 'bg-red-500/10 border-red-500/30'}`}>
+                              <p className="font-bold text-white mb-1">
+                                {selectedAnswer === quiz.answer ? '🎉 Correct!' : '❌ Not quite right.'}
+                              </p>
+                              <p className="text-sm text-slate-300 font-medium">
+                                {quiz.explanation}
+                              </p>
+                            </div>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    );
+                  })()}
 
                 </div>
               </div>
