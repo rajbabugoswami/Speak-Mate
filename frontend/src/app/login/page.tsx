@@ -19,6 +19,8 @@ export default function LoginPage() {
     e.preventDefault();
     if (otp.length === 4) {
       setStep("success");
+      // Save login state in local storage
+      localStorage.setItem("userName", "Champion");
       // Simulate redirect after 2s
       setTimeout(() => {
         window.location.href = "/";

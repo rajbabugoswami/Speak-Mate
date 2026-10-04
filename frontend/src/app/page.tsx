@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
 import DashboardStats from "@/components/dashboard/DashboardStats";
@@ -5,13 +8,26 @@ import ActionGrid from "@/components/dashboard/ActionGrid";
 import DailyHighlights from "@/components/dashboard/DailyHighlights";
 
 export default function Home() {
+  const [userName, setUserName] = useState<string | null>(null);
+
+  useEffect(() => {
+    const storedName = localStorage.getItem("userName");
+    if (!storedName) {
+      window.location.href = "/login";
+    } else {
+      setUserName(storedName);
+    }
+  }, []);
+
+  if (!userName) return null; // Show nothing while checking
+
   return (
     <main className="min-h-screen pb-20 md:pb-0">
       <Header />
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-foreground mb-2">Welcome back, Felix! 👋</h1>
+          <h1 className="text-3xl font-bold text-foreground mb-2">Welcome back, {userName}! 👋</h1>
           <p className="text-muted-foreground">You're currently at an <span className="font-semibold text-primary">Intermediate (B1)</span> level. Keep up the good work!</p>
         </div>
 
