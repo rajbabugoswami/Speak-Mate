@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import Link from "next/link";
 import BottomNav from "@/components/layout/BottomNav";
 import { Volume2, ArrowLeft, Star, Trophy, Zap, CheckCircle2, XCircle, ChevronRight, RotateCcw, Home, BookOpen, Gamepad2 } from "lucide-react";
@@ -371,6 +371,11 @@ export default function KidsPage() {
   const [streak, setStreak] = useState(0);
   const [lives, setLives] = useState(3);
   const [quizData, setQuizData] = useState<WordItem[]>([]);
+
+  // Scroll to top when page loads or game mode changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [gameMode]);
 
   const playAudio = useCallback((text: string) => {
     if (typeof window !== "undefined") {
