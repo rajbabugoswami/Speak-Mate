@@ -50,6 +50,11 @@ export default function ProfilePage() {
     setIsModalOpen(false);
   };
 
+  const handleSignOut = () => {
+    localStorage.removeItem("userName");
+    window.location.href = "/login";
+  };
+
   return (
     <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 flex flex-col font-sans relative">
       <Header />
