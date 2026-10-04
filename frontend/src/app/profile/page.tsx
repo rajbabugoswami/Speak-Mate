@@ -1,0 +1,162 @@
+"use client";
+
+import Header from "@/components/layout/Header";
+import BottomNav from "@/components/layout/BottomNav";
+import { User, Settings, Shield, Bell, HelpCircle, LogOut, Flame, Trophy, Star, ChevronRight, Edit3, BookOpen, Mic } from "lucide-react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export default function ProfilePage() {
+  return (
+    <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 flex flex-col font-sans">
+      <Header />
+      
+      <div className="flex-1 container mx-auto px-4 py-8 max-w-3xl">
+        
+        {/* Profile Card */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 mb-8 relative overflow-hidden"
+        >
+          <div className="absolute top-0 right-0 w-40 h-40 bg-blue-500/5 rounded-full blur-3xl" />
+          
+          <div className="flex flex-col md:flex-row items-center gap-6 relative z-10">
+            <div className="relative">
+              <div className="w-28 h-28 rounded-full bg-slate-200 overflow-hidden ring-4 ring-white shadow-xl">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Felix" className="w-full h-full object-cover" />
+              </div>
+              <button className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
+                <Edit3 className="w-4 h-4" />
+              </button>
+            </div>
+            
+            <div className="text-center md:text-left flex-1">
+              <h1 className="text-3xl font-black text-slate-800">Felix Sharma</h1>
+              <p className="text-slate-500 font-medium mb-3">+91 98765 43210</p>
+              
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-sm font-bold">
+                  Intermediate (B1)
+                </span>
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 text-amber-600 text-sm font-bold">
+                  <Star className="w-3.5 h-3.5" /> Pro Member
+                </span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Stats Grid */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
+        >
+          <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-orange-200 hover:shadow-md transition-all">
+            <Flame className="w-8 h-8 text-orange-500 mb-2" />
+            <h3 className="text-2xl font-black text-slate-800">12</h3>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Day Streak</p>
+          </div>
+          <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-blue-200 hover:shadow-md transition-all">
+            <Trophy className="w-8 h-8 text-blue-500 mb-2" />
+            <h3 className="text-2xl font-black text-slate-800">4,250</h3>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total XP</p>
+          </div>
+          <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-purple-200 hover:shadow-md transition-all">
+            <BookOpen className="w-8 h-8 text-purple-500 mb-2" />
+            <h3 className="text-2xl font-black text-slate-800">48</h3>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Lessons</p>
+          </div>
+          <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-green-200 hover:shadow-md transition-all">
+            <Mic className="w-8 h-8 text-green-500 mb-2" />
+            <h3 className="text-2xl font-black text-slate-800">92%</h3>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Accuracy</p>
+          </div>
+        </motion.div>
+
+        {/* Settings List */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="bg-white rounded-3xl shadow-sm border border-slate-100 overflow-hidden mb-8"
+        >
+          <div className="p-4 border-b border-slate-100 bg-slate-50">
+            <h3 className="font-black text-slate-800 ml-2">Preferences</h3>
+          </div>
+          
+          <div className="divide-y divide-slate-50">
+            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                  <User className="w-5 h-5" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-bold text-slate-800">Account Details</h4>
+                  <p className="text-sm text-slate-500 font-medium">Update your name and phone number</p>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+            </button>
+
+            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                  <Bell className="w-5 h-5" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-bold text-slate-800">Notifications</h4>
+                  <p className="text-sm text-slate-500 font-medium">Manage practice reminders</p>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+            </button>
+
+            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                  <Shield className="w-5 h-5" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-bold text-slate-800">Privacy & Security</h4>
+                  <p className="text-sm text-slate-500 font-medium">Password and security settings</p>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+            </button>
+
+            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                  <HelpCircle className="w-5 h-5" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-bold text-slate-800">Help & Support</h4>
+                  <p className="text-sm text-slate-500 font-medium">Get help or contact us</p>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+            </button>
+          </div>
+        </motion.div>
+
+        {/* Logout Button */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          <Link href="/login" className="w-full bg-white text-red-500 font-bold border-2 border-red-100 py-4 rounded-2xl hover:bg-red-50 transition-colors flex items-center justify-center gap-2 shadow-sm">
+            <LogOut className="w-5 h-5" /> Sign Out
+          </Link>
+          <p className="text-center text-slate-400 text-xs font-bold mt-4 uppercase tracking-widest">SpeakMate App Version 1.0.0</p>
+        </motion.div>
+
+      </div>
+
+      <BottomNav />
+    </main>
+  );
+}

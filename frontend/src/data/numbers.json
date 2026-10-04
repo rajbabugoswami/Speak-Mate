@@ -1,0 +1,502 @@
+[
+  {
+    "num": 1,
+    "word": "One",
+    "hi": "एक"
+  },
+  {
+    "num": 2,
+    "word": "Two",
+    "hi": "दो"
+  },
+  {
+    "num": 3,
+    "word": "Three",
+    "hi": "तीन"
+  },
+  {
+    "num": 4,
+    "word": "Four",
+    "hi": "चार"
+  },
+  {
+    "num": 5,
+    "word": "Five",
+    "hi": "पाँच"
+  },
+  {
+    "num": 6,
+    "word": "Six",
+    "hi": "छह"
+  },
+  {
+    "num": 7,
+    "word": "Seven",
+    "hi": "सात"
+  },
+  {
+    "num": 8,
+    "word": "Eight",
+    "hi": "आठ"
+  },
+  {
+    "num": 9,
+    "word": "Nine",
+    "hi": "नौ"
+  },
+  {
+    "num": 10,
+    "word": "Ten",
+    "hi": "दस"
+  },
+  {
+    "num": 11,
+    "word": "Eleven",
+    "hi": "ग्यारह"
+  },
+  {
+    "num": 12,
+    "word": "Twelve",
+    "hi": "बारह"
+  },
+  {
+    "num": 13,
+    "word": "Thirteen",
+    "hi": "तेरह"
+  },
+  {
+    "num": 14,
+    "word": "Fourteen",
+    "hi": "चौदह"
+  },
+  {
+    "num": 15,
+    "word": "Fifteen",
+    "hi": "पंद्रह"
+  },
+  {
+    "num": 16,
+    "word": "Sixteen",
+    "hi": "सोलह"
+  },
+  {
+    "num": 17,
+    "word": "Seventeen",
+    "hi": "सत्रह"
+  },
+  {
+    "num": 18,
+    "word": "Eighteen",
+    "hi": "अठारह"
+  },
+  {
+    "num": 19,
+    "word": "Nineteen",
+    "hi": "उन्नीस"
+  },
+  {
+    "num": 20,
+    "word": "Twenty",
+    "hi": "बीस"
+  },
+  {
+    "num": 21,
+    "word": "Twenty-one",
+    "hi": "इक्कीस"
+  },
+  {
+    "num": 22,
+    "word": "Twenty-two",
+    "hi": "बाईस"
+  },
+  {
+    "num": 23,
+    "word": "Twenty-three",
+    "hi": "तेईस"
+  },
+  {
+    "num": 24,
+    "word": "Twenty-four",
+    "hi": "चौबीस"
+  },
+  {
+    "num": 25,
+    "word": "Twenty-five",
+    "hi": "पच्चीस"
+  },
+  {
+    "num": 26,
+    "word": "Twenty-six",
+    "hi": "छब्बीस"
+  },
+  {
+    "num": 27,
+    "word": "Twenty-seven",
+    "hi": "सत्ताईस"
+  },
+  {
+    "num": 28,
+    "word": "Twenty-eight",
+    "hi": "अट्ठाईस"
+  },
+  {
+    "num": 29,
+    "word": "Twenty-nine",
+    "hi": "उनतीस"
+  },
+  {
+    "num": 30,
+    "word": "Thirty",
+    "hi": "तीस"
+  },
+  {
+    "num": 31,
+    "word": "Thirty-one",
+    "hi": "इकतीस"
+  },
+  {
+    "num": 32,
+    "word": "Thirty-two",
+    "hi": "बत्तीस"
+  },
+  {
+    "num": 33,
+    "word": "Thirty-three",
+    "hi": "तैंतीस"
+  },
+  {
+    "num": 34,
+    "word": "Thirty-four",
+    "hi": "चौंतीस"
+  },
+  {
+    "num": 35,
+    "word": "Thirty-five",
+    "hi": "पैंतीस"
+  },
+  {
+    "num": 36,
+    "word": "Thirty-six",
+    "hi": "छत्तीस"
+  },
+  {
+    "num": 37,
+    "word": "Thirty-seven",
+    "hi": "सैंतीस"
+  },
+  {
+    "num": 38,
+    "word": "Thirty-eight",
+    "hi": "अड़तीस"
+  },
+  {
+    "num": 39,
+    "word": "Thirty-nine",
+    "hi": "उनतालीस"
+  },
+  {
+    "num": 40,
+    "word": "Forty",
+    "hi": "चालीस"
+  },
+  {
+    "num": 41,
+    "word": "Forty-one",
+    "hi": "इकतालीस"
+  },
+  {
+    "num": 42,
+    "word": "Forty-two",
+    "hi": "बयालीस"
+  },
+  {
+    "num": 43,
+    "word": "Forty-three",
+    "hi": "तैंतालीस"
+  },
+  {
+    "num": 44,
+    "word": "Forty-four",
+    "hi": "चौंतालीस"
+  },
+  {
+    "num": 45,
+    "word": "Forty-five",
+    "hi": "पैंतालीस"
+  },
+  {
+    "num": 46,
+    "word": "Forty-six",
+    "hi": "छियालीस"
+  },
+  {
+    "num": 47,
+    "word": "Forty-seven",
+    "hi": "सैंतालीस"
+  },
+  {
+    "num": 48,
+    "word": "Forty-eight",
+    "hi": "अड़तालीस"
+  },
+  {
+    "num": 49,
+    "word": "Forty-nine",
+    "hi": "उनचास"
+  },
+  {
+    "num": 50,
+    "word": "Fifty",
+    "hi": "पचास"
+  },
+  {
+    "num": 51,
+    "word": "Fifty-one",
+    "hi": "इक्यावन"
+  },
+  {
+    "num": 52,
+    "word": "Fifty-two",
+    "hi": "बावन"
+  },
+  {
+    "num": 53,
+    "word": "Fifty-three",
+    "hi": "तिरपन"
+  },
+  {
+    "num": 54,
+    "word": "Fifty-four",
+    "hi": "चौवन"
+  },
+  {
+    "num": 55,
+    "word": "Fifty-five",
+    "hi": "पचपन"
+  },
+  {
+    "num": 56,
+    "word": "Fifty-six",
+    "hi": "छप्पन"
+  },
+  {
+    "num": 57,
+    "word": "Fifty-seven",
+    "hi": "सत्तावन"
+  },
+  {
+    "num": 58,
+    "word": "Fifty-eight",
+    "hi": "अट्ठावन"
+  },
+  {
+    "num": 59,
+    "word": "Fifty-nine",
+    "hi": "उनसठ"
+  },
+  {
+    "num": 60,
+    "word": "Sixty",
+    "hi": "साठ"
+  },
+  {
+    "num": 61,
+    "word": "Sixty-one",
+    "hi": "इकसठ"
+  },
+  {
+    "num": 62,
+    "word": "Sixty-two",
+    "hi": "बासठ"
+  },
+  {
+    "num": 63,
+    "word": "Sixty-three",
+    "hi": "तिरसठ"
+  },
+  {
+    "num": 64,
+    "word": "Sixty-four",
+    "hi": "चौंसठ"
+  },
+  {
+    "num": 65,
+    "word": "Sixty-five",
+    "hi": "पैंसठ"
+  },
+  {
+    "num": 66,
+    "word": "Sixty-six",
+    "hi": "छियासठ"
+  },
+  {
+    "num": 67,
+    "word": "Sixty-seven",
+    "hi": "सड़सठ"
+  },
+  {
+    "num": 68,
+    "word": "Sixty-eight",
+    "hi": "अड़सठ"
+  },
+  {
+    "num": 69,
+    "word": "Sixty-nine",
+    "hi": "उनहत्तर"
+  },
+  {
+    "num": 70,
+    "word": "Seventy",
+    "hi": "सत्तर"
+  },
+  {
+    "num": 71,
+    "word": "Seventy-one",
+    "hi": "इकहत्तर"
+  },
+  {
+    "num": 72,
+    "word": "Seventy-two",
+    "hi": "बहत्तर"
+  },
+  {
+    "num": 73,
+    "word": "Seventy-three",
+    "hi": "तिहत्तर"
+  },
+  {
+    "num": 74,
+    "word": "Seventy-four",
+    "hi": "चौहत्तर"
+  },
+  {
+    "num": 75,
+    "word": "Seventy-five",
+    "hi": "पचहत्तर"
+  },
+  {
+    "num": 76,
+    "word": "Seventy-six",
+    "hi": "छिहत्तर"
+  },
+  {
+    "num": 77,
+    "word": "Seventy-seven",
+    "hi": "सतहत्तर"
+  },
+  {
+    "num": 78,
+    "word": "Seventy-eight",
+    "hi": "अठहत्तर"
+  },
+  {
+    "num": 79,
+    "word": "Seventy-nine",
+    "hi": "उन्नासी"
+  },
+  {
+    "num": 80,
+    "word": "Eighty",
+    "hi": "अस्सी"
+  },
+  {
+    "num": 81,
+    "word": "Eighty-one",
+    "hi": "इक्यासी"
+  },
+  {
+    "num": 82,
+    "word": "Eighty-two",
+    "hi": "बयासी"
+  },
+  {
+    "num": 83,
+    "word": "Eighty-three",
+    "hi": "तिरासी"
+  },
+  {
+    "num": 84,
+    "word": "Eighty-four",
+    "hi": "चौरासी"
+  },
+  {
+    "num": 85,
+    "word": "Eighty-five",
+    "hi": "पचासी"
+  },
+  {
+    "num": 86,
+    "word": "Eighty-six",
+    "hi": "छियासी"
+  },
+  {
+    "num": 87,
+    "word": "Eighty-seven",
+    "hi": "सत्तासी"
+  },
+  {
+    "num": 88,
+    "word": "Eighty-eight",
+    "hi": "अट्ठासी"
+  },
+  {
+    "num": 89,
+    "word": "Eighty-nine",
+    "hi": "नवासी"
+  },
+  {
+    "num": 90,
+    "word": "Ninety",
+    "hi": "नब्बे"
+  },
+  {
+    "num": 91,
+    "word": "Ninety-one",
+    "hi": "इक्यानवे"
+  },
+  {
+    "num": 92,
+    "word": "Ninety-two",
+    "hi": "बानवे"
+  },
+  {
+    "num": 93,
+    "word": "Ninety-three",
+    "hi": "तिरानवे"
+  },
+  {
+    "num": 94,
+    "word": "Ninety-four",
+    "hi": "चौरानवे"
+  },
+  {
+    "num": 95,
+    "word": "Ninety-five",
+    "hi": "पचानवे"
+  },
+  {
+    "num": 96,
+    "word": "Ninety-six",
+    "hi": "छियानवे"
+  },
+  {
+    "num": 97,
+    "word": "Ninety-seven",
+    "hi": "सत्तानवे"
+  },
+  {
+    "num": 98,
+    "word": "Ninety-eight",
+    "hi": "अट्ठानवे"
+  },
+  {
+    "num": 99,
+    "word": "Ninety-nine",
+    "hi": "निन्यानवे"
+  },
+  {
+    "num": 100,
+    "word": "One Hundred",
+    "hi": "एक सौ"
+  }
+]

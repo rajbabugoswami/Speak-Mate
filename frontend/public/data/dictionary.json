@@ -1,0 +1,2732 @@
+[
+  {
+    "word": "Ability",
+    "hindi": "क्षमता",
+    "meaning": "Skill or power to do something",
+    "example": "She has the ability to learn quickly.",
+    "id": 1
+  },
+  {
+    "word": "Above",
+    "hindi": "ऊपर",
+    "meaning": "At a higher level",
+    "example": "The bird flew above the tree.",
+    "id": 2
+  },
+  {
+    "word": "Absorb",
+    "hindi": "सोखना",
+    "meaning": "To take in or soak up",
+    "example": "A sponge can absorb water.",
+    "id": 3
+  },
+  {
+    "word": "Accept",
+    "hindi": "स्वीकार करना",
+    "meaning": "To agree to receive",
+    "example": "I accept your apology.",
+    "id": 4
+  },
+  {
+    "word": "Accident",
+    "hindi": "दुर्घटना",
+    "meaning": "An unexpected event",
+    "example": "He had a car accident.",
+    "id": 5
+  },
+  {
+    "word": "Action",
+    "hindi": "कार्य",
+    "meaning": "The process of doing something",
+    "example": "Actions speak louder than words.",
+    "id": 6
+  },
+  {
+    "word": "Active",
+    "hindi": "सक्रिय",
+    "meaning": "Moving around a lot or doing things",
+    "example": "He is very active in sports.",
+    "id": 7
+  },
+  {
+    "word": "Add",
+    "hindi": "जोड़ना",
+    "meaning": "To put things together",
+    "example": "Add two and two to get four.",
+    "id": 8
+  },
+  {
+    "word": "Advice",
+    "hindi": "सलाह",
+    "meaning": "Guidance or recommendations",
+    "example": "I need your advice on this.",
+    "id": 9
+  },
+  {
+    "word": "Afraid",
+    "hindi": "डरा हुआ",
+    "meaning": "Feeling fear",
+    "example": "Are you afraid of the dark?",
+    "id": 10
+  },
+  {
+    "word": "After",
+    "hindi": "बाद में",
+    "meaning": "Following in time",
+    "example": "I will see you after school.",
+    "id": 11
+  },
+  {
+    "word": "Again",
+    "hindi": "फिर से",
+    "meaning": "One more time",
+    "example": "Please say that again.",
+    "id": 12
+  },
+  {
+    "word": "Age",
+    "hindi": "उम्र",
+    "meaning": "How old someone is",
+    "example": "What is your age?",
+    "id": 13
+  },
+  {
+    "word": "Agree",
+    "hindi": "सहमत होना",
+    "meaning": "To have the same opinion",
+    "example": "I agree with you completely.",
+    "id": 14
+  },
+  {
+    "word": "Air",
+    "hindi": "हवा",
+    "meaning": "The invisible gas we breathe",
+    "example": "The air is fresh today.",
+    "id": 15
+  },
+  {
+    "word": "Allow",
+    "hindi": "अनुमति देना",
+    "meaning": "To let someone do something",
+    "example": "My parents allow me to play.",
+    "id": 16
+  },
+  {
+    "word": "Almost",
+    "hindi": "लगभग",
+    "meaning": "Very nearly",
+    "example": "Dinner is almost ready.",
+    "id": 17
+  },
+  {
+    "word": "Alone",
+    "hindi": "अकेला",
+    "meaning": "Without anyone else",
+    "example": "He was sitting all alone.",
+    "id": 18
+  },
+  {
+    "word": "Already",
+    "hindi": "पहले से",
+    "meaning": "Before now",
+    "example": "I have already finished my work.",
+    "id": 19
+  },
+  {
+    "word": "Always",
+    "hindi": "हमेशा",
+    "meaning": "At all times",
+    "example": "I always brush my teeth.",
+    "id": 20
+  },
+  {
+    "word": "Amazing",
+    "hindi": "अद्भुत",
+    "meaning": "Causing great surprise or wonder",
+    "example": "That was an amazing magic trick.",
+    "id": 21
+  },
+  {
+    "word": "Angry",
+    "hindi": "गुस्सा",
+    "meaning": "Feeling strong annoyance",
+    "example": "Why are you so angry?",
+    "id": 22
+  },
+  {
+    "word": "Animal",
+    "hindi": "जानवर",
+    "meaning": "A living creature",
+    "example": "The lion is a wild animal.",
+    "id": 23
+  },
+  {
+    "word": "Answer",
+    "hindi": "उत्तर",
+    "meaning": "A reply to a question",
+    "example": "Do you know the answer?",
+    "id": 24
+  },
+  {
+    "word": "Appear",
+    "hindi": "प्रकट होना",
+    "meaning": "To become visible",
+    "example": "Stars appear at night.",
+    "id": 25
+  },
+  {
+    "word": "Apple",
+    "hindi": "सेब",
+    "meaning": "A round fruit with red or green skin",
+    "example": "An apple a day keeps the doctor away.",
+    "id": 26
+  },
+  {
+    "word": "Area",
+    "hindi": "क्षेत्र",
+    "meaning": "A region or part of a town",
+    "example": "This area is very quiet.",
+    "id": 27
+  },
+  {
+    "word": "Arrive",
+    "hindi": "पहुंचना",
+    "meaning": "To reach a destination",
+    "example": "We will arrive at 5 PM.",
+    "id": 28
+  },
+  {
+    "word": "Ask",
+    "hindi": "पूछना",
+    "meaning": "To request information",
+    "example": "Can I ask you a question?",
+    "id": 29
+  },
+  {
+    "word": "Attention",
+    "hindi": "ध्यान",
+    "meaning": "Noticing or listening carefully",
+    "example": "Please pay attention in class.",
+    "id": 30
+  },
+  {
+    "word": "Baby",
+    "hindi": "बच्चा",
+    "meaning": "A very young child",
+    "example": "The baby is sleeping.",
+    "id": 31
+  },
+  {
+    "word": "Back",
+    "hindi": "पीछे",
+    "meaning": "The rear part of something",
+    "example": "Go back to your seat.",
+    "id": 32
+  },
+  {
+    "word": "Bad",
+    "hindi": "बुरा",
+    "meaning": "Not good",
+    "example": "That is a bad idea.",
+    "id": 33
+  },
+  {
+    "word": "Bag",
+    "hindi": "थैला",
+    "meaning": "A container made of flexible material",
+    "example": "Put your books in the bag.",
+    "id": 34
+  },
+  {
+    "word": "Balance",
+    "hindi": "संतुलन",
+    "meaning": "An even distribution of weight",
+    "example": "He lost his balance and fell.",
+    "id": 35
+  },
+  {
+    "word": "Ball",
+    "hindi": "गेंद",
+    "meaning": "A round object used in games",
+    "example": "Kick the ball hard.",
+    "id": 36
+  },
+  {
+    "word": "Bank",
+    "hindi": "बैंक",
+    "meaning": "A place to keep money",
+    "example": "I need to go to the bank.",
+    "id": 37
+  },
+  {
+    "word": "Base",
+    "hindi": "आधार",
+    "meaning": "The lowest part of something",
+    "example": "The base of the tower is strong.",
+    "id": 38
+  },
+  {
+    "word": "Basic",
+    "hindi": "बुनियादी",
+    "meaning": "Forming an essential foundation",
+    "example": "We need basic supplies.",
+    "id": 39
+  },
+  {
+    "word": "Basket",
+    "hindi": "टोकरी",
+    "meaning": "A container used to hold things",
+    "example": "Put the fruits in the basket.",
+    "id": 40
+  },
+  {
+    "word": "Bath",
+    "hindi": "स्नान",
+    "meaning": "Washing the body",
+    "example": "I need to take a bath.",
+    "id": 41
+  },
+  {
+    "word": "Beautiful",
+    "hindi": "सुंदर",
+    "meaning": "Pleasing to the senses",
+    "example": "She wore a beautiful dress.",
+    "id": 42
+  },
+  {
+    "word": "Because",
+    "hindi": "क्योंकि",
+    "meaning": "For the reason that",
+    "example": "I am crying because I am sad.",
+    "id": 43
+  },
+  {
+    "word": "Become",
+    "hindi": "बनना",
+    "meaning": "To begin to be",
+    "example": "He wants to become a doctor.",
+    "id": 44
+  },
+  {
+    "word": "Bed",
+    "hindi": "बिस्तर",
+    "meaning": "A piece of furniture for sleep",
+    "example": "It is time to go to bed.",
+    "id": 45
+  },
+  {
+    "word": "Before",
+    "hindi": "पहले",
+    "meaning": "During the period of time preceding",
+    "example": "Wash your hands before eating.",
+    "id": 46
+  },
+  {
+    "word": "Begin",
+    "hindi": "शुरू करना",
+    "meaning": "To start",
+    "example": "Let the game begin.",
+    "id": 47
+  },
+  {
+    "word": "Behind",
+    "hindi": "पीछे",
+    "meaning": "At the back of",
+    "example": "Look behind you.",
+    "id": 48
+  },
+  {
+    "word": "Believe",
+    "hindi": "विश्वास करना",
+    "meaning": "To accept as true",
+    "example": "I believe you.",
+    "id": 49
+  },
+  {
+    "word": "Bell",
+    "hindi": "घंटी",
+    "meaning": "A hollow object that rings",
+    "example": "The school bell rang.",
+    "id": 50
+  },
+  {
+    "word": "Below",
+    "hindi": "नीचे",
+    "meaning": "At a lower level",
+    "example": "See the image below.",
+    "id": 51
+  },
+  {
+    "word": "Best",
+    "hindi": "सर्वश्रेष्ठ",
+    "meaning": "Of the most excellent sort",
+    "example": "You are my best friend.",
+    "id": 52
+  },
+  {
+    "word": "Better",
+    "hindi": "बेहतर",
+    "meaning": "More desirable or satisfactory",
+    "example": "I feel better today.",
+    "id": 53
+  },
+  {
+    "word": "Between",
+    "hindi": "बीच में",
+    "meaning": "In the space separating two things",
+    "example": "Sit between Tom and Jerry.",
+    "id": 54
+  },
+  {
+    "word": "Big",
+    "hindi": "बड़ा",
+    "meaning": "Of considerable size",
+    "example": "That is a big elephant.",
+    "id": 55
+  },
+  {
+    "word": "Bird",
+    "hindi": "पक्षी",
+    "meaning": "An animal with wings and feathers",
+    "example": "The bird is flying.",
+    "id": 56
+  },
+  {
+    "word": "Black",
+    "hindi": "काला",
+    "meaning": "The darkest color",
+    "example": "I have a black cat.",
+    "id": 57
+  },
+  {
+    "word": "Blind",
+    "hindi": "अंधा",
+    "meaning": "Unable to see",
+    "example": "The old man is blind.",
+    "id": 58
+  },
+  {
+    "word": "Blood",
+    "hindi": "खून",
+    "meaning": "The red liquid in the body",
+    "example": "Blood carries oxygen.",
+    "id": 59
+  },
+  {
+    "word": "Blue",
+    "hindi": "नीला",
+    "meaning": "The color of the clear sky",
+    "example": "The sky is blue today.",
+    "id": 60
+  },
+  {
+    "word": "Cake",
+    "hindi": "केक",
+    "meaning": "A sweet baked food",
+    "example": "I love chocolate cake.",
+    "id": 61
+  },
+  {
+    "word": "Call",
+    "hindi": "बुलाना",
+    "meaning": "To cry out to someone",
+    "example": "Call me when you arrive.",
+    "id": 62
+  },
+  {
+    "word": "Calm",
+    "hindi": "शांत",
+    "meaning": "Not showing anger or emotion",
+    "example": "Keep calm and carry on.",
+    "id": 63
+  },
+  {
+    "word": "Camera",
+    "hindi": "कैमरा",
+    "meaning": "A device for recording images",
+    "example": "Smile for the camera.",
+    "id": 64
+  },
+  {
+    "word": "Camp",
+    "hindi": "शिविर",
+    "meaning": "A place for temporary stay",
+    "example": "We set up camp in the woods.",
+    "id": 65
+  },
+  {
+    "word": "Can",
+    "hindi": "सकना",
+    "meaning": "To be able to",
+    "example": "I can swim.",
+    "id": 66
+  },
+  {
+    "word": "Cap",
+    "hindi": "टोपी",
+    "meaning": "A soft, flat hat",
+    "example": "He wears a red cap.",
+    "id": 67
+  },
+  {
+    "word": "Car",
+    "hindi": "कार",
+    "meaning": "A four-wheeled vehicle",
+    "example": "My dad bought a new car.",
+    "id": 68
+  },
+  {
+    "word": "Card",
+    "hindi": "कार्ड",
+    "meaning": "A piece of thick, stiff paper",
+    "example": "Pick a card, any card.",
+    "id": 69
+  },
+  {
+    "word": "Care",
+    "hindi": "परवाह",
+    "meaning": "Attention given to something",
+    "example": "Take care of yourself.",
+    "id": 70
+  },
+  {
+    "word": "Carry",
+    "hindi": "ले जाना",
+    "meaning": "To support and move something",
+    "example": "Can you carry this bag?",
+    "id": 71
+  },
+  {
+    "word": "Case",
+    "hindi": "मामला",
+    "meaning": "An instance of a particular situation",
+    "example": "In that case, let's go.",
+    "id": 72
+  },
+  {
+    "word": "Cat",
+    "hindi": "बिल्ली",
+    "meaning": "A small domesticated carnivorous mammal",
+    "example": "The cat is sleeping.",
+    "id": 73
+  },
+  {
+    "word": "Catch",
+    "hindi": "पकड़ना",
+    "meaning": "To intercept and hold",
+    "example": "Try to catch the ball.",
+    "id": 74
+  },
+  {
+    "word": "Cause",
+    "hindi": "कारण",
+    "meaning": "A person or thing that gives rise to an action",
+    "example": "What is the cause of this?",
+    "id": 75
+  },
+  {
+    "word": "Center",
+    "hindi": "केंद्र",
+    "meaning": "The middle point",
+    "example": "Stand in the center of the room.",
+    "id": 76
+  },
+  {
+    "word": "Certain",
+    "hindi": "निश्चित",
+    "meaning": "Known for sure",
+    "example": "I am certain about this.",
+    "id": 77
+  },
+  {
+    "word": "Chair",
+    "hindi": "कुर्सी",
+    "meaning": "A seat for one person",
+    "example": "Sit on the chair.",
+    "id": 78
+  },
+  {
+    "word": "Chance",
+    "hindi": "मौका",
+    "meaning": "A possibility of something happening",
+    "example": "Give me one more chance.",
+    "id": 79
+  },
+  {
+    "word": "Change",
+    "hindi": "बदलना",
+    "meaning": "Make or become different",
+    "example": "We need to change our clothes.",
+    "id": 80
+  },
+  {
+    "word": "Charge",
+    "hindi": "चार्ज",
+    "meaning": "Demand an amount as a price",
+    "example": "How much do you charge?",
+    "id": 81
+  },
+  {
+    "word": "Check",
+    "hindi": "जांचना",
+    "meaning": "Examine the accuracy of something",
+    "example": "Please check your answers.",
+    "id": 82
+  },
+  {
+    "word": "Child",
+    "hindi": "बच्चा",
+    "meaning": "A young human being",
+    "example": "The child is playing.",
+    "id": 83
+  },
+  {
+    "word": "Choose",
+    "hindi": "चुनना",
+    "meaning": "Pick out as being the best",
+    "example": "Choose your favorite color.",
+    "id": 84
+  },
+  {
+    "word": "Circle",
+    "hindi": "वृत्त",
+    "meaning": "A round plane figure",
+    "example": "Draw a circle on the paper.",
+    "id": 85
+  },
+  {
+    "word": "Daily",
+    "hindi": "दैनिक",
+    "meaning": "Done every day",
+    "example": "Reading is my daily habit.",
+    "id": 86
+  },
+  {
+    "word": "Damage",
+    "hindi": "क्षति",
+    "meaning": "Physical harm",
+    "example": "The storm caused much damage.",
+    "id": 87
+  },
+  {
+    "word": "Dance",
+    "hindi": "नाचना",
+    "meaning": "Move rhythmically to music",
+    "example": "She loves to dance.",
+    "id": 88
+  },
+  {
+    "word": "Danger",
+    "hindi": "खतरा",
+    "meaning": "The possibility of suffering harm",
+    "example": "The sign warned of danger.",
+    "id": 89
+  },
+  {
+    "word": "Dark",
+    "hindi": "अंधेरा",
+    "meaning": "With little or no light",
+    "example": "It is getting dark outside.",
+    "id": 90
+  },
+  {
+    "word": "Date",
+    "hindi": "तारीख",
+    "meaning": "The day of the month or year",
+    "example": "What is today's date?",
+    "id": 91
+  },
+  {
+    "word": "Daughter",
+    "hindi": "बेटी",
+    "meaning": "A female child",
+    "example": "She is my lovely daughter.",
+    "id": 92
+  },
+  {
+    "word": "Day",
+    "hindi": "दिन",
+    "meaning": "A 24-hour period",
+    "example": "Have a nice day!",
+    "id": 93
+  },
+  {
+    "word": "Dead",
+    "hindi": "मृत",
+    "meaning": "No longer alive",
+    "example": "The plant is dead.",
+    "id": 94
+  },
+  {
+    "word": "Deal",
+    "hindi": "सौदा",
+    "meaning": "An agreement",
+    "example": "We have a deal.",
+    "id": 95
+  },
+  {
+    "word": "Dear",
+    "hindi": "प्रिय",
+    "meaning": "Regarded with deep affection",
+    "example": "Oh dear, I lost my keys.",
+    "id": 96
+  },
+  {
+    "word": "Death",
+    "hindi": "मौत",
+    "meaning": "The end of life",
+    "example": "The hero's death was sad.",
+    "id": 97
+  },
+  {
+    "word": "Decide",
+    "hindi": "निर्णय करना",
+    "meaning": "Come to a resolution",
+    "example": "I need to decide what to wear.",
+    "id": 98
+  },
+  {
+    "word": "Deep",
+    "hindi": "गहरा",
+    "meaning": "Extending far down",
+    "example": "The pool is very deep.",
+    "id": 99
+  },
+  {
+    "word": "Deer",
+    "hindi": "हिरन",
+    "meaning": "A hoofed grazing animal",
+    "example": "I saw a deer in the forest.",
+    "id": 100
+  },
+  {
+    "word": "Delay",
+    "hindi": "देरी",
+    "meaning": "Make someone or something late",
+    "example": "The flight had a delay.",
+    "id": 101
+  },
+  {
+    "word": "Design",
+    "hindi": "डिजाइन",
+    "meaning": "A plan or drawing",
+    "example": "She made a beautiful design.",
+    "id": 102
+  },
+  {
+    "word": "Desk",
+    "hindi": "मेज",
+    "meaning": "A piece of furniture for working",
+    "example": "My books are on the desk.",
+    "id": 103
+  },
+  {
+    "word": "Destroy",
+    "hindi": "नष्ट करना",
+    "meaning": "Put an end to the existence of",
+    "example": "The fire destroyed the building.",
+    "id": 104
+  },
+  {
+    "word": "Detail",
+    "hindi": "विवरण",
+    "meaning": "An individual feature",
+    "example": "Pay attention to every detail.",
+    "id": 105
+  },
+  {
+    "word": "Die",
+    "hindi": "मरना",
+    "meaning": "Stop living",
+    "example": "All living things eventually die.",
+    "id": 106
+  },
+  {
+    "word": "Difference",
+    "hindi": "अंतर",
+    "meaning": "A point in which people or things are not the same",
+    "example": "Can you tell the difference?",
+    "id": 107
+  },
+  {
+    "word": "Difficult",
+    "hindi": "कठिन",
+    "meaning": "Needing much effort",
+    "example": "Math is difficult for me.",
+    "id": 108
+  },
+  {
+    "word": "Dig",
+    "hindi": "खोदना",
+    "meaning": "Break up and move earth",
+    "example": "The dog loves to dig holes.",
+    "id": 109
+  },
+  {
+    "word": "Dinner",
+    "hindi": "रात का खाना",
+    "meaning": "The main meal of the day",
+    "example": "What is for dinner?",
+    "id": 110
+  },
+  {
+    "word": "Each",
+    "hindi": "प्रत्येक",
+    "meaning": "Every one of two or more people",
+    "example": "Each student got a pen.",
+    "id": 111
+  },
+  {
+    "word": "Eagle",
+    "hindi": "चील",
+    "meaning": "A large bird of prey",
+    "example": "The eagle flew high.",
+    "id": 112
+  },
+  {
+    "word": "Ear",
+    "hindi": "कान",
+    "meaning": "The organ of hearing",
+    "example": "I have an ache in my ear.",
+    "id": 113
+  },
+  {
+    "word": "Early",
+    "hindi": "जल्दी",
+    "meaning": "Before the usual time",
+    "example": "I wake up early.",
+    "id": 114
+  },
+  {
+    "word": "Earn",
+    "hindi": "कमाना",
+    "meaning": "Obtain money in return for labor",
+    "example": "He works hard to earn money.",
+    "id": 115
+  },
+  {
+    "word": "Earth",
+    "hindi": "पृथ्वी",
+    "meaning": "The planet on which we live",
+    "example": "The Earth is round.",
+    "id": 116
+  },
+  {
+    "word": "East",
+    "hindi": "पूर्व",
+    "meaning": "The direction where the sun rises",
+    "example": "The sun rises in the east.",
+    "id": 117
+  },
+  {
+    "word": "Easy",
+    "hindi": "आसान",
+    "meaning": "Achieved without great effort",
+    "example": "The test was very easy.",
+    "id": 118
+  },
+  {
+    "word": "Eat",
+    "hindi": "खाना",
+    "meaning": "Put food into the mouth",
+    "example": "I like to eat pizza.",
+    "id": 119
+  },
+  {
+    "word": "Edge",
+    "hindi": "किनारा",
+    "meaning": "The outside limit of an object",
+    "example": "Don't walk near the edge.",
+    "id": 120
+  },
+  {
+    "word": "Education",
+    "hindi": "शिक्षा",
+    "meaning": "The process of receiving instruction",
+    "example": "Education is very important.",
+    "id": 121
+  },
+  {
+    "word": "Effect",
+    "hindi": "प्रभाव",
+    "meaning": "A change which is a result",
+    "example": "The medicine had a good effect.",
+    "id": 122
+  },
+  {
+    "word": "Egg",
+    "hindi": "अंडा",
+    "meaning": "An oval object laid by a bird",
+    "example": "I eat an egg for breakfast.",
+    "id": 123
+  },
+  {
+    "word": "Eight",
+    "hindi": "आठ",
+    "meaning": "The number after seven",
+    "example": "A spider has eight legs.",
+    "id": 124
+  },
+  {
+    "word": "Either",
+    "hindi": "या तो",
+    "meaning": "One or the other",
+    "example": "You can have either tea or coffee.",
+    "id": 125
+  },
+  {
+    "word": "Elephant",
+    "hindi": "हाथी",
+    "meaning": "A huge mammal with a trunk",
+    "example": "The elephant is very big.",
+    "id": 126
+  },
+  {
+    "word": "Empty",
+    "hindi": "खाली",
+    "meaning": "Containing nothing",
+    "example": "The glass is empty.",
+    "id": 127
+  },
+  {
+    "word": "End",
+    "hindi": "अंत",
+    "meaning": "The final part of something",
+    "example": "This is the end of the story.",
+    "id": 128
+  },
+  {
+    "word": "Enemy",
+    "hindi": "दुश्मन",
+    "meaning": "A person who is actively opposed to someone",
+    "example": "He defeated his enemy.",
+    "id": 129
+  },
+  {
+    "word": "Energy",
+    "hindi": "ऊर्जा",
+    "meaning": "The strength to sustain physical activity",
+    "example": "Kids have a lot of energy.",
+    "id": 130
+  },
+  {
+    "word": "Face",
+    "hindi": "चेहरा",
+    "meaning": "The front part of a person's head",
+    "example": "Wash your face.",
+    "id": 131
+  },
+  {
+    "word": "Fact",
+    "hindi": "तथ्य",
+    "meaning": "A thing that is known to be true",
+    "example": "It is a fact that water is wet.",
+    "id": 132
+  },
+  {
+    "word": "Fall",
+    "hindi": "गिरना",
+    "meaning": "Move downward rapidly",
+    "example": "Don't fall down the stairs.",
+    "id": 133
+  },
+  {
+    "word": "Family",
+    "hindi": "परिवार",
+    "meaning": "A group of parents and children",
+    "example": "I love my family.",
+    "id": 134
+  },
+  {
+    "word": "Famous",
+    "hindi": "प्रसिद्ध",
+    "meaning": "Known about by many people",
+    "example": "He is a famous singer.",
+    "id": 135
+  },
+  {
+    "word": "Far",
+    "hindi": "दूर",
+    "meaning": "At a great distance",
+    "example": "The school is far from my house.",
+    "id": 136
+  },
+  {
+    "word": "Farm",
+    "hindi": "खेत",
+    "meaning": "An area of land for growing crops",
+    "example": "We visited a farm.",
+    "id": 137
+  },
+  {
+    "word": "Fast",
+    "hindi": "तेज",
+    "meaning": "Moving at high speed",
+    "example": "The cheetah runs fast.",
+    "id": 138
+  },
+  {
+    "word": "Fat",
+    "hindi": "मोटा",
+    "meaning": "Having a lot of extra flesh",
+    "example": "The cat is too fat.",
+    "id": 139
+  },
+  {
+    "word": "Father",
+    "hindi": "पिता",
+    "meaning": "A male parent",
+    "example": "My father is very strong.",
+    "id": 140
+  },
+  {
+    "word": "Fear",
+    "hindi": "डर",
+    "meaning": "An unpleasant emotion caused by danger",
+    "example": "He has a fear of spiders.",
+    "id": 141
+  },
+  {
+    "word": "Feed",
+    "hindi": "खिलाना",
+    "meaning": "Give food to",
+    "example": "Don't forget to feed the dog.",
+    "id": 142
+  },
+  {
+    "word": "Feel",
+    "hindi": "महसूस करना",
+    "meaning": "Experience an emotion or sensation",
+    "example": "I feel happy today.",
+    "id": 143
+  },
+  {
+    "word": "Few",
+    "hindi": "कुछ",
+    "meaning": "A small number of",
+    "example": "I only have a few coins left.",
+    "id": 144
+  },
+  {
+    "word": "Field",
+    "hindi": "मैदान",
+    "meaning": "An open area of land",
+    "example": "We played in the field.",
+    "id": 145
+  },
+  {
+    "word": "Game",
+    "hindi": "खेल",
+    "meaning": "An activity done for amusement",
+    "example": "Let's play a game.",
+    "id": 146
+  },
+  {
+    "word": "Garden",
+    "hindi": "बगीचा",
+    "meaning": "A piece of ground for growing flowers",
+    "example": "The garden has beautiful flowers.",
+    "id": 147
+  },
+  {
+    "word": "Gate",
+    "hindi": "फाटक",
+    "meaning": "A hinged barrier",
+    "example": "Close the gate behind you.",
+    "id": 148
+  },
+  {
+    "word": "Gather",
+    "hindi": "इकट्ठा करना",
+    "meaning": "Come together",
+    "example": "Let's gather some wood for the fire.",
+    "id": 149
+  },
+  {
+    "word": "General",
+    "hindi": "सामान्य",
+    "meaning": "Affecting all or most people",
+    "example": "The general opinion is good.",
+    "id": 150
+  },
+  {
+    "word": "Gentle",
+    "hindi": "कोमल",
+    "meaning": "Mild in temperament",
+    "example": "Be gentle with the baby.",
+    "id": 151
+  },
+  {
+    "word": "Get",
+    "hindi": "पाना",
+    "meaning": "Come to have or hold",
+    "example": "I will get a new toy.",
+    "id": 152
+  },
+  {
+    "word": "Girl",
+    "hindi": "लड़की",
+    "meaning": "A female child",
+    "example": "The girl is reading a book.",
+    "id": 153
+  },
+  {
+    "word": "Give",
+    "hindi": "देना",
+    "meaning": "Transfer the possession of",
+    "example": "Please give me the pen.",
+    "id": 154
+  },
+  {
+    "word": "Glad",
+    "hindi": "खुश",
+    "meaning": "Pleased or delighted",
+    "example": "I am glad to see you.",
+    "id": 155
+  },
+  {
+    "word": "Glass",
+    "hindi": "कांच / गिलास",
+    "meaning": "A hard, brittle substance",
+    "example": "The window is made of glass.",
+    "id": 156
+  },
+  {
+    "word": "Go",
+    "hindi": "जाना",
+    "meaning": "Move from one place to another",
+    "example": "I want to go home.",
+    "id": 157
+  },
+  {
+    "word": "Goal",
+    "hindi": "लक्ष्य",
+    "meaning": "The object of a person's ambition",
+    "example": "My goal is to learn English.",
+    "id": 158
+  },
+  {
+    "word": "Gold",
+    "hindi": "सोना",
+    "meaning": "A yellow precious metal",
+    "example": "She wears a gold ring.",
+    "id": 159
+  },
+  {
+    "word": "Good",
+    "hindi": "अच्छा",
+    "meaning": "To be desired or approved of",
+    "example": "He is a good boy.",
+    "id": 160
+  },
+  {
+    "word": "Habit",
+    "hindi": "आदत",
+    "meaning": "A settled or regular tendency",
+    "example": "Reading is a good habit.",
+    "id": 161
+  },
+  {
+    "word": "Hair",
+    "hindi": "बाल",
+    "meaning": "The fine threadlike strands growing from the skin",
+    "example": "She has long black hair.",
+    "id": 162
+  },
+  {
+    "word": "Half",
+    "hindi": "आधा",
+    "meaning": "Either of two equal periods or parts",
+    "example": "I ate half the pizza.",
+    "id": 163
+  },
+  {
+    "word": "Hand",
+    "hindi": "हाथ",
+    "meaning": "The end part of a person's arm",
+    "example": "Raise your hand to speak.",
+    "id": 164
+  },
+  {
+    "word": "Happy",
+    "hindi": "खुश",
+    "meaning": "Feeling or showing pleasure",
+    "example": "I am very happy today.",
+    "id": 165
+  },
+  {
+    "word": "Hard",
+    "hindi": "कठिन",
+    "meaning": "Solid, firm, and rigid",
+    "example": "This rock is very hard.",
+    "id": 166
+  },
+  {
+    "word": "Hat",
+    "hindi": "टोपी",
+    "meaning": "A shaped covering for the head",
+    "example": "Wear a hat in the sun.",
+    "id": 167
+  },
+  {
+    "word": "Have",
+    "hindi": "पास होना",
+    "meaning": "Possess or own",
+    "example": "I have two dogs.",
+    "id": 168
+  },
+  {
+    "word": "Head",
+    "hindi": "सिर",
+    "meaning": "The upper part of the human body",
+    "example": "My head hurts.",
+    "id": 169
+  },
+  {
+    "word": "Health",
+    "hindi": "स्वास्थ्य",
+    "meaning": "The state of being free from illness",
+    "example": "Eating apples is good for health.",
+    "id": 170
+  },
+  {
+    "word": "Hear",
+    "hindi": "सुनना",
+    "meaning": "Perceive with the ear",
+    "example": "Did you hear that sound?",
+    "id": 171
+  },
+  {
+    "word": "Heart",
+    "hindi": "दिल",
+    "meaning": "A hollow muscular organ that pumps blood",
+    "example": "My heart is beating fast.",
+    "id": 172
+  },
+  {
+    "word": "Heavy",
+    "hindi": "भारी",
+    "meaning": "Of great weight",
+    "example": "This box is too heavy.",
+    "id": 173
+  },
+  {
+    "word": "Help",
+    "hindi": "मदद",
+    "meaning": "Make it easier for someone to do something",
+    "example": "Can you help me?",
+    "id": 174
+  },
+  {
+    "word": "High",
+    "hindi": "ऊंचा",
+    "meaning": "Of great vertical extent",
+    "example": "The mountain is very high.",
+    "id": 175
+  },
+  {
+    "word": "Ice",
+    "hindi": "बर्फ",
+    "meaning": "Frozen water",
+    "example": "Put some ice in my drink.",
+    "id": 176
+  },
+  {
+    "word": "Idea",
+    "hindi": "विचार",
+    "meaning": "A thought or suggestion",
+    "example": "That is a great idea!",
+    "id": 177
+  },
+  {
+    "word": "If",
+    "hindi": "अगर",
+    "meaning": "On the condition that",
+    "example": "If it rains, we stay inside.",
+    "id": 178
+  },
+  {
+    "word": "Ill",
+    "hindi": "बीमार",
+    "meaning": "Not in full health",
+    "example": "He is feeling ill today.",
+    "id": 179
+  },
+  {
+    "word": "Important",
+    "hindi": "महत्वपूर्ण",
+    "meaning": "Of great significance",
+    "example": "This is an important test.",
+    "id": 180
+  },
+  {
+    "word": "Improve",
+    "hindi": "सुधारना",
+    "meaning": "Make or become better",
+    "example": "I want to improve my English.",
+    "id": 181
+  },
+  {
+    "word": "In",
+    "hindi": "अंदर",
+    "meaning": "Expressing the situation of something",
+    "example": "The cat is in the box.",
+    "id": 182
+  },
+  {
+    "word": "Include",
+    "hindi": "शामिल करना",
+    "meaning": "Comprise or contain as part of a whole",
+    "example": "The price includes tax.",
+    "id": 183
+  },
+  {
+    "word": "Increase",
+    "hindi": "बढ़ाना",
+    "meaning": "Become or make greater",
+    "example": "We must increase our speed.",
+    "id": 184
+  },
+  {
+    "word": "Information",
+    "hindi": "जानकारी",
+    "meaning": "Facts provided or learned",
+    "example": "I need more information.",
+    "id": 185
+  },
+  {
+    "word": "Insect",
+    "hindi": "कीड़ा",
+    "meaning": "A small arthropod animal",
+    "example": "An ant is an insect.",
+    "id": 186
+  },
+  {
+    "word": "Inside",
+    "hindi": "अंदर",
+    "meaning": "The inner side or surface",
+    "example": "Let's go inside the house.",
+    "id": 187
+  },
+  {
+    "word": "Instead",
+    "hindi": "बजाय",
+    "meaning": "As an alternative",
+    "example": "I will drink water instead of soda.",
+    "id": 188
+  },
+  {
+    "word": "Interest",
+    "hindi": "रुचि",
+    "meaning": "The feeling of wanting to know",
+    "example": "I have an interest in science.",
+    "id": 189
+  },
+  {
+    "word": "Iron",
+    "hindi": "लोहा",
+    "meaning": "A strong, hard magnetic silvery-gray metal",
+    "example": "The gate is made of iron.",
+    "id": 190
+  },
+  {
+    "word": "Jacket",
+    "hindi": "जैकेट",
+    "meaning": "An outer garment extending either to the waist or the hips",
+    "example": "Wear a jacket, it's cold.",
+    "id": 191
+  },
+  {
+    "word": "Jar",
+    "hindi": "जार",
+    "meaning": "A wide-mouthed cylindrical container",
+    "example": "The jar is full of jam.",
+    "id": 192
+  },
+  {
+    "word": "Job",
+    "hindi": "नौकरी",
+    "meaning": "A paid position of regular employment",
+    "example": "He loves his new job.",
+    "id": 193
+  },
+  {
+    "word": "Join",
+    "hindi": "जुड़ना",
+    "meaning": "Link or connect",
+    "example": "Will you join us for dinner?",
+    "id": 194
+  },
+  {
+    "word": "Joke",
+    "hindi": "मजाक",
+    "meaning": "A thing someone says to cause amusement",
+    "example": "He told a funny joke.",
+    "id": 195
+  },
+  {
+    "word": "Journey",
+    "hindi": "यात्रा",
+    "meaning": "An act of traveling from one place to another",
+    "example": "Have a safe journey.",
+    "id": 196
+  },
+  {
+    "word": "Joy",
+    "hindi": "आनंद",
+    "meaning": "A feeling of great pleasure and happiness",
+    "example": "The child jumped with joy.",
+    "id": 197
+  },
+  {
+    "word": "Judge",
+    "hindi": "न्यायाधीश",
+    "meaning": "A public official appointed to decide cases",
+    "example": "The judge listened carefully.",
+    "id": 198
+  },
+  {
+    "word": "Jump",
+    "hindi": "कूदना",
+    "meaning": "Push oneself off a surface",
+    "example": "The frog can jump high.",
+    "id": 199
+  },
+  {
+    "word": "Just",
+    "hindi": "बस / अभी",
+    "meaning": "Exactly or very recently",
+    "example": "I just woke up.",
+    "id": 200
+  },
+  {
+    "word": "Keep",
+    "hindi": "रखना",
+    "meaning": "Have or retain possession of",
+    "example": "Keep your room clean.",
+    "id": 201
+  },
+  {
+    "word": "Key",
+    "hindi": "चाबी",
+    "meaning": "A small piece of shaped metal",
+    "example": "I lost the key to the door.",
+    "id": 202
+  },
+  {
+    "word": "Kick",
+    "hindi": "लात मारना",
+    "meaning": "Strike or propel forcibly with the foot",
+    "example": "Kick the ball.",
+    "id": 203
+  },
+  {
+    "word": "Kid",
+    "hindi": "बच्चा",
+    "meaning": "A child or young person",
+    "example": "The kid is playing.",
+    "id": 204
+  },
+  {
+    "word": "Kill",
+    "hindi": "मारना",
+    "meaning": "Cause the death of",
+    "example": "Don't kill the spider.",
+    "id": 205
+  },
+  {
+    "word": "Kind",
+    "hindi": "दयालु",
+    "meaning": "Having or showing a friendly nature",
+    "example": "She is a kind person.",
+    "id": 206
+  },
+  {
+    "word": "King",
+    "hindi": "राजा",
+    "meaning": "The male ruler of an independent state",
+    "example": "The king lived in a castle.",
+    "id": 207
+  },
+  {
+    "word": "Kiss",
+    "hindi": "चूमना",
+    "meaning": "Touch with the lips as a sign of love",
+    "example": "Give your mom a kiss.",
+    "id": 208
+  },
+  {
+    "word": "Kite",
+    "hindi": "पतंग",
+    "meaning": "A toy consisting of a light frame",
+    "example": "Let's fly a kite.",
+    "id": 209
+  },
+  {
+    "word": "Knee",
+    "hindi": "घुटना",
+    "meaning": "The joint between the thigh and the lower leg",
+    "example": "I hurt my knee.",
+    "id": 210
+  },
+  {
+    "word": "Knife",
+    "hindi": "चाकू",
+    "meaning": "An instrument with a blade",
+    "example": "Use a knife to cut the apple.",
+    "id": 211
+  },
+  {
+    "word": "Know",
+    "hindi": "जानना",
+    "meaning": "Be aware of through observation",
+    "example": "I know the answer.",
+    "id": 212
+  },
+  {
+    "word": "Knowledge",
+    "hindi": "ज्ञान",
+    "meaning": "Information and skills acquired",
+    "example": "Knowledge is power.",
+    "id": 213
+  },
+  {
+    "word": "Lack",
+    "hindi": "कमी",
+    "meaning": "The state of being without",
+    "example": "There is a lack of water here.",
+    "id": 214
+  },
+  {
+    "word": "Lake",
+    "hindi": "झील",
+    "meaning": "A large body of water",
+    "example": "We went swimming in the lake.",
+    "id": 215
+  },
+  {
+    "word": "Land",
+    "hindi": "भूमि",
+    "meaning": "The part of the earth's surface that is not covered by water",
+    "example": "The land is very dry.",
+    "id": 216
+  },
+  {
+    "word": "Language",
+    "hindi": "भाषा",
+    "meaning": "The method of human communication",
+    "example": "English is a global language.",
+    "id": 217
+  },
+  {
+    "word": "Large",
+    "hindi": "बड़ा",
+    "meaning": "Of considerable size or extent",
+    "example": "He lives in a large house.",
+    "id": 218
+  },
+  {
+    "word": "Last",
+    "hindi": "आखिरी",
+    "meaning": "Coming after all others in time",
+    "example": "This is the last piece of cake.",
+    "id": 219
+  },
+  {
+    "word": "Late",
+    "hindi": "देर से",
+    "meaning": "Doing something after the expected time",
+    "example": "Why are you late?",
+    "id": 220
+  },
+  {
+    "word": "Laugh",
+    "hindi": "हंसना",
+    "meaning": "Make the spontaneous sounds of amusement",
+    "example": "His joke made me laugh.",
+    "id": 221
+  },
+  {
+    "word": "Law",
+    "hindi": "कानून",
+    "meaning": "The system of rules",
+    "example": "We must obey the law.",
+    "id": 222
+  },
+  {
+    "word": "Lazy",
+    "hindi": "आलसी",
+    "meaning": "Unwilling to work or use energy",
+    "example": "Don't be lazy, do your homework.",
+    "id": 223
+  },
+  {
+    "word": "Lead",
+    "hindi": "नेतृत्व करना",
+    "meaning": "Show the way to",
+    "example": "She will lead the team.",
+    "id": 224
+  },
+  {
+    "word": "Leaf",
+    "hindi": "पत्ता",
+    "meaning": "A flattened structure of a higher plant",
+    "example": "The leaf fell from the tree.",
+    "id": 225
+  },
+  {
+    "word": "Learn",
+    "hindi": "सीखना",
+    "meaning": "Gain or acquire knowledge",
+    "example": "I want to learn Spanish.",
+    "id": 226
+  },
+  {
+    "word": "Leave",
+    "hindi": "छोड़ना",
+    "meaning": "Go away from",
+    "example": "What time do you leave for school?",
+    "id": 227
+  },
+  {
+    "word": "Left",
+    "hindi": "बायां",
+    "meaning": "On, toward, or relating to the side of a human body",
+    "example": "Turn left at the corner.",
+    "id": 228
+  },
+  {
+    "word": "Machine",
+    "hindi": "मशीन",
+    "meaning": "An apparatus using mechanical power",
+    "example": "This washing machine is new.",
+    "id": 229
+  },
+  {
+    "word": "Mad",
+    "hindi": "पागल / गुस्सा",
+    "meaning": "Very angry or mentally ill",
+    "example": "Are you mad at me?",
+    "id": 230
+  },
+  {
+    "word": "Magic",
+    "hindi": "जादू",
+    "meaning": "The power of apparently influencing the course of events",
+    "example": "He did a magic trick.",
+    "id": 231
+  },
+  {
+    "word": "Main",
+    "hindi": "मुख्य",
+    "meaning": "Chief in size or importance",
+    "example": "This is the main road.",
+    "id": 232
+  },
+  {
+    "word": "Make",
+    "hindi": "बनाना",
+    "meaning": "Form by putting parts together",
+    "example": "I will make a cake.",
+    "id": 233
+  },
+  {
+    "word": "Man",
+    "hindi": "आदमी",
+    "meaning": "An adult human male",
+    "example": "That man is very tall.",
+    "id": 234
+  },
+  {
+    "word": "Many",
+    "hindi": "कई",
+    "meaning": "A large number of",
+    "example": "There are many stars in the sky.",
+    "id": 235
+  },
+  {
+    "word": "Map",
+    "hindi": "नक्शा",
+    "meaning": "A diagrammatic representation of an area",
+    "example": "Let's look at the map.",
+    "id": 236
+  },
+  {
+    "word": "Market",
+    "hindi": "बाजार",
+    "meaning": "A regular gathering of people for the purchase and sale of provisions",
+    "example": "We buy vegetables from the market.",
+    "id": 237
+  },
+  {
+    "word": "Master",
+    "hindi": "गुरु / मालिक",
+    "meaning": "A man who has people working for him",
+    "example": "He is the master of the house.",
+    "id": 238
+  },
+  {
+    "word": "Match",
+    "hindi": "माचिस / मिलान",
+    "meaning": "A contest in which people or teams compete",
+    "example": "We won the football match.",
+    "id": 239
+  },
+  {
+    "word": "Matter",
+    "hindi": "मामला",
+    "meaning": "A subject or situation under consideration",
+    "example": "What is the matter with you?",
+    "id": 240
+  },
+  {
+    "word": "May",
+    "hindi": "सकना",
+    "meaning": "Expressing possibility",
+    "example": "It may rain today.",
+    "id": 241
+  },
+  {
+    "word": "Mean",
+    "hindi": "मतलब",
+    "meaning": "Intend to convey or refer to",
+    "example": "What does this word mean?",
+    "id": 242
+  },
+  {
+    "word": "Meat",
+    "hindi": "मांस",
+    "meaning": "The flesh of an animal as food",
+    "example": "Lions eat meat.",
+    "id": 243
+  },
+  {
+    "word": "Name",
+    "hindi": "नाम",
+    "meaning": "A word or set of words by which a person is known",
+    "example": "What is your name?",
+    "id": 244
+  },
+  {
+    "word": "Narrow",
+    "hindi": "संकीर्ण",
+    "meaning": "Of small width",
+    "example": "The street is very narrow.",
+    "id": 245
+  },
+  {
+    "word": "Nation",
+    "hindi": "राष्ट्र",
+    "meaning": "A large body of people united by common descent",
+    "example": "India is a great nation.",
+    "id": 246
+  },
+  {
+    "word": "Nature",
+    "hindi": "प्रकृति",
+    "meaning": "The physical world and everything in it",
+    "example": "We should protect nature.",
+    "id": 247
+  },
+  {
+    "word": "Near",
+    "hindi": "पास",
+    "meaning": "At or to a short distance away",
+    "example": "My house is near the park.",
+    "id": 248
+  },
+  {
+    "word": "Neat",
+    "hindi": "साफ-सुथरा",
+    "meaning": "Arranged in an orderly, tidy way",
+    "example": "Keep your room neat.",
+    "id": 249
+  },
+  {
+    "word": "Neck",
+    "hindi": "गर्दन",
+    "meaning": "The part of a person's body connecting the head to the rest",
+    "example": "Giraffes have a long neck.",
+    "id": 250
+  },
+  {
+    "word": "Need",
+    "hindi": "ज़रूरत",
+    "meaning": "Require something because it is essential",
+    "example": "I need a drink of water.",
+    "id": 251
+  },
+  {
+    "word": "Never",
+    "hindi": "कभी नहीं",
+    "meaning": "At no time in the past or future",
+    "example": "I never eat meat.",
+    "id": 252
+  },
+  {
+    "word": "New",
+    "hindi": "नया",
+    "meaning": "Not existing before",
+    "example": "I have a new toy.",
+    "id": 253
+  },
+  {
+    "word": "Next",
+    "hindi": "अगला",
+    "meaning": "Coming immediately after the time of writing or speaking",
+    "example": "See you next week.",
+    "id": 254
+  },
+  {
+    "word": "Nice",
+    "hindi": "अच्छा",
+    "meaning": "Pleasant or attractive",
+    "example": "Have a nice day.",
+    "id": 255
+  },
+  {
+    "word": "Night",
+    "hindi": "रात",
+    "meaning": "The period of darkness in each twenty-four hours",
+    "example": "The stars shine at night.",
+    "id": 256
+  },
+  {
+    "word": "Noise",
+    "hindi": "शोर",
+    "meaning": "A sound, especially one that is loud",
+    "example": "Don't make noise in the library.",
+    "id": 257
+  },
+  {
+    "word": "Normal",
+    "hindi": "सामान्य",
+    "meaning": "Conforming to a standard; usual",
+    "example": "It is normal to feel nervous.",
+    "id": 258
+  },
+  {
+    "word": "Object",
+    "hindi": "वस्तु",
+    "meaning": "A material thing that can be seen and touched",
+    "example": "What is that object?",
+    "id": 259
+  },
+  {
+    "word": "Ocean",
+    "hindi": "महासागर",
+    "meaning": "A very large expanse of sea",
+    "example": "Whales live in the ocean.",
+    "id": 260
+  },
+  {
+    "word": "Odd",
+    "hindi": "अजीब / विषम",
+    "meaning": "Different from what is usual",
+    "example": "That is an odd looking bug.",
+    "id": 261
+  },
+  {
+    "word": "Off",
+    "hindi": "बंद / से दूर",
+    "meaning": "Away from the place in question",
+    "example": "Turn off the lights.",
+    "id": 262
+  },
+  {
+    "word": "Offer",
+    "hindi": "प्रस्ताव",
+    "meaning": "Present something for someone to accept or reject",
+    "example": "He offered me a job.",
+    "id": 263
+  },
+  {
+    "word": "Office",
+    "hindi": "कार्यालय",
+    "meaning": "A room or building used for business",
+    "example": "My dad goes to the office.",
+    "id": 264
+  },
+  {
+    "word": "Often",
+    "hindi": "अक्सर",
+    "meaning": "Frequently; many times",
+    "example": "I often visit my grandmother.",
+    "id": 265
+  },
+  {
+    "word": "Old",
+    "hindi": "पुराना / बूढ़ा",
+    "meaning": "Having lived for a long time",
+    "example": "My grandfather is very old.",
+    "id": 266
+  },
+  {
+    "word": "On",
+    "hindi": "पर",
+    "meaning": "Physically in contact with and supported by",
+    "example": "The book is on the table.",
+    "id": 267
+  },
+  {
+    "word": "Once",
+    "hindi": "एक बार",
+    "meaning": "On one occasion or for one time only",
+    "example": "I only met him once.",
+    "id": 268
+  },
+  {
+    "word": "One",
+    "hindi": "एक",
+    "meaning": "The lowest cardinal number",
+    "example": "I have one brother.",
+    "id": 269
+  },
+  {
+    "word": "Only",
+    "hindi": "केवल",
+    "meaning": "And no one or nothing more besides",
+    "example": "I have only one dollar.",
+    "id": 270
+  },
+  {
+    "word": "Open",
+    "hindi": "खुला",
+    "meaning": "Allowing access",
+    "example": "Please open the door.",
+    "id": 271
+  },
+  {
+    "word": "Order",
+    "hindi": "आदेश",
+    "meaning": "An authoritative command",
+    "example": "The teacher gave an order.",
+    "id": 272
+  },
+  {
+    "word": "Other",
+    "hindi": "अन्य",
+    "meaning": "Denoting a person or thing that is different",
+    "example": "Let's try the other one.",
+    "id": 273
+  },
+  {
+    "word": "Page",
+    "hindi": "पृष्ठ",
+    "meaning": "One side of a leaf of a book",
+    "example": "Open your book to page 10.",
+    "id": 274
+  },
+  {
+    "word": "Pain",
+    "hindi": "दर्द",
+    "meaning": "Physical suffering or discomfort",
+    "example": "I feel pain in my leg.",
+    "id": 275
+  },
+  {
+    "word": "Paint",
+    "hindi": "रंगना",
+    "meaning": "Cover the surface of something with color",
+    "example": "I want to paint my room blue.",
+    "id": 276
+  },
+  {
+    "word": "Paper",
+    "hindi": "कागज",
+    "meaning": "Material manufactured in thin sheets",
+    "example": "Write your name on the paper.",
+    "id": 277
+  },
+  {
+    "word": "Parent",
+    "hindi": "माता-पिता",
+    "meaning": "A father or mother",
+    "example": "Listen to your parents.",
+    "id": 278
+  },
+  {
+    "word": "Park",
+    "hindi": "पार्क",
+    "meaning": "A large public green area",
+    "example": "Let's play in the park.",
+    "id": 279
+  },
+  {
+    "word": "Part",
+    "hindi": "हिस्सा",
+    "meaning": "Some but not all of something",
+    "example": "I ate part of the cake.",
+    "id": 280
+  },
+  {
+    "word": "Pass",
+    "hindi": "गुजरना / पास होना",
+    "meaning": "Move or cause to move in a specified direction",
+    "example": "Pass the ball to me.",
+    "id": 281
+  },
+  {
+    "word": "Path",
+    "hindi": "रास्ता",
+    "meaning": "A way or track laid down for walking",
+    "example": "Follow the path to the river.",
+    "id": 282
+  },
+  {
+    "word": "Peace",
+    "hindi": "शांति",
+    "meaning": "Freedom from disturbance",
+    "example": "We all want peace in the world.",
+    "id": 283
+  },
+  {
+    "word": "Pen",
+    "hindi": "कलम",
+    "meaning": "An instrument for writing or drawing",
+    "example": "May I borrow your pen?",
+    "id": 284
+  },
+  {
+    "word": "People",
+    "hindi": "लोग",
+    "meaning": "Human beings in general",
+    "example": "There are many people here.",
+    "id": 285
+  },
+  {
+    "word": "Perfect",
+    "hindi": "उत्तम",
+    "meaning": "Having all the required or desirable elements",
+    "example": "It is a perfect day for a picnic.",
+    "id": 286
+  },
+  {
+    "word": "Picture",
+    "hindi": "चित्र",
+    "meaning": "A painting or drawing",
+    "example": "Draw a picture of a house.",
+    "id": 287
+  },
+  {
+    "word": "Place",
+    "hindi": "जगह",
+    "meaning": "A particular position or point in space",
+    "example": "This is a nice place to sit.",
+    "id": 288
+  },
+  {
+    "word": "Quarter",
+    "hindi": "चौथाई",
+    "meaning": "Each of four equal or corresponding parts",
+    "example": "I ate a quarter of the pizza.",
+    "id": 289
+  },
+  {
+    "word": "Queen",
+    "hindi": "रानी",
+    "meaning": "The female ruler of an independent state",
+    "example": "The queen wore a crown.",
+    "id": 290
+  },
+  {
+    "word": "Question",
+    "hindi": "प्रश्न",
+    "meaning": "A sentence worded or expressed so as to elicit information",
+    "example": "I have a question.",
+    "id": 291
+  },
+  {
+    "word": "Quick",
+    "hindi": "तेज",
+    "meaning": "Moving fast or doing something in a short time",
+    "example": "Be quick, we are late!",
+    "id": 292
+  },
+  {
+    "word": "Quiet",
+    "hindi": "शांत",
+    "meaning": "Making little or no noise",
+    "example": "Please be quiet in the library.",
+    "id": 293
+  },
+  {
+    "word": "Quit",
+    "hindi": "छोड़ना",
+    "meaning": "Leave (a place), usually permanently",
+    "example": "He decided to quit his job.",
+    "id": 294
+  },
+  {
+    "word": "Quite",
+    "hindi": "काफी",
+    "meaning": "To the utmost or most absolute extent or degree",
+    "example": "It is quite cold outside.",
+    "id": 295
+  },
+  {
+    "word": "Quote",
+    "hindi": "उद्धरण",
+    "meaning": "Repeat or copy out",
+    "example": "She read a quote from the book.",
+    "id": 296
+  },
+  {
+    "word": "Rabbit",
+    "hindi": "खरगोश",
+    "meaning": "A burrowing plant-eating mammal",
+    "example": "The rabbit hopped away.",
+    "id": 297
+  },
+  {
+    "word": "Race",
+    "hindi": "दौड़",
+    "meaning": "A competition to see who is the fastest",
+    "example": "He won the running race.",
+    "id": 298
+  },
+  {
+    "word": "Rain",
+    "hindi": "बारिश",
+    "meaning": "Moisture condensed from the atmosphere",
+    "example": "It is going to rain today.",
+    "id": 299
+  },
+  {
+    "word": "Raise",
+    "hindi": "उठाना",
+    "meaning": "Lift or move to a higher position",
+    "example": "Raise your hand if you know the answer.",
+    "id": 300
+  },
+  {
+    "word": "Reach",
+    "hindi": "पहुंचना",
+    "meaning": "Stretch out an arm to touch or grasp something",
+    "example": "I can't reach the top shelf.",
+    "id": 301
+  },
+  {
+    "word": "Read",
+    "hindi": "पढ़ना",
+    "meaning": "Look at and comprehend the meaning of",
+    "example": "I like to read books.",
+    "id": 302
+  },
+  {
+    "word": "Ready",
+    "hindi": "तैयार",
+    "meaning": "In a suitable state for an action or situation",
+    "example": "Are you ready to go?",
+    "id": 303
+  },
+  {
+    "word": "Real",
+    "hindi": "असली",
+    "meaning": "Actually existing as a thing",
+    "example": "Is that a real diamond?",
+    "id": 304
+  },
+  {
+    "word": "Reason",
+    "hindi": "कारण",
+    "meaning": "A cause, explanation, or justification",
+    "example": "Give me one good reason.",
+    "id": 305
+  },
+  {
+    "word": "Receive",
+    "hindi": "प्राप्त करना",
+    "meaning": "Be given, presented with, or paid",
+    "example": "Did you receive my letter?",
+    "id": 306
+  },
+  {
+    "word": "Red",
+    "hindi": "लाल",
+    "meaning": "Of a color at the end of the spectrum",
+    "example": "Apples are red.",
+    "id": 307
+  },
+  {
+    "word": "Remember",
+    "hindi": "याद रखना",
+    "meaning": "Have in or be able to bring to one's mind",
+    "example": "Remember to call your mom.",
+    "id": 308
+  },
+  {
+    "word": "Right",
+    "hindi": "सही / दायां",
+    "meaning": "Morally good, justified, or acceptable",
+    "example": "You are right.",
+    "id": 309
+  },
+  {
+    "word": "River",
+    "hindi": "नदी",
+    "meaning": "A large natural stream of water",
+    "example": "We swam in the river.",
+    "id": 310
+  },
+  {
+    "word": "Run",
+    "hindi": "दौड़ना",
+    "meaning": "Move at a speed faster than a walk",
+    "example": "The dog loves to run.",
+    "id": 311
+  },
+  {
+    "word": "Sad",
+    "hindi": "उदास",
+    "meaning": "Feeling or showing sorrow",
+    "example": "Why are you looking so sad?",
+    "id": 312
+  },
+  {
+    "word": "Safe",
+    "hindi": "सुरक्षित",
+    "meaning": "Protected from or not exposed to danger",
+    "example": "Keep your money in a safe place.",
+    "id": 313
+  },
+  {
+    "word": "Same",
+    "hindi": "समान",
+    "meaning": "Identical; not different",
+    "example": "We have the same shoes.",
+    "id": 314
+  },
+  {
+    "word": "Sand",
+    "hindi": "रेत",
+    "meaning": "A loose granular substance",
+    "example": "We played in the sand at the beach.",
+    "id": 315
+  },
+  {
+    "word": "Say",
+    "hindi": "कहना",
+    "meaning": "Utter words so as to convey information",
+    "example": "What did you say?",
+    "id": 316
+  },
+  {
+    "word": "School",
+    "hindi": "स्कूल",
+    "meaning": "An institution for educating children",
+    "example": "I go to school every day.",
+    "id": 317
+  },
+  {
+    "word": "Science",
+    "hindi": "विज्ञान",
+    "meaning": "The intellectual and practical activity encompassing the systematic study",
+    "example": "Science is my favorite subject.",
+    "id": 318
+  },
+  {
+    "word": "Sea",
+    "hindi": "समुद्र",
+    "meaning": "The expanse of salt water",
+    "example": "The sea is very deep.",
+    "id": 319
+  },
+  {
+    "word": "Search",
+    "hindi": "खोज",
+    "meaning": "Try to find something by looking",
+    "example": "I must search for my lost keys.",
+    "id": 320
+  },
+  {
+    "word": "See",
+    "hindi": "देखना",
+    "meaning": "Perceive with the eyes",
+    "example": "I can see the mountains.",
+    "id": 321
+  },
+  {
+    "word": "Sell",
+    "hindi": "बेचना",
+    "meaning": "Give or hand over in exchange for money",
+    "example": "They sell fresh fruits.",
+    "id": 322
+  },
+  {
+    "word": "Send",
+    "hindi": "भेजना",
+    "meaning": "Cause to go or be taken to a particular destination",
+    "example": "I will send you a message.",
+    "id": 323
+  },
+  {
+    "word": "Shape",
+    "hindi": "आकार",
+    "meaning": "The external form or appearance",
+    "example": "A circle is a round shape.",
+    "id": 324
+  },
+  {
+    "word": "Share",
+    "hindi": "साझा करना",
+    "meaning": "Have a portion of (something) with another",
+    "example": "Please share your toys.",
+    "id": 325
+  },
+  {
+    "word": "Show",
+    "hindi": "दिखाना",
+    "meaning": "Be, allow, or cause to be visible",
+    "example": "Show me your drawing.",
+    "id": 326
+  },
+  {
+    "word": "Table",
+    "hindi": "मेज",
+    "meaning": "A piece of furniture with a flat top",
+    "example": "Put the plates on the table.",
+    "id": 327
+  },
+  {
+    "word": "Take",
+    "hindi": "लेना",
+    "meaning": "Reach for and hold",
+    "example": "Take an umbrella, it's raining.",
+    "id": 328
+  },
+  {
+    "word": "Talk",
+    "hindi": "बात करना",
+    "meaning": "Speak in order to give information",
+    "example": "We need to talk.",
+    "id": 329
+  },
+  {
+    "word": "Tall",
+    "hindi": "लंबा",
+    "meaning": "Of great or more than average height",
+    "example": "Giraffes are very tall.",
+    "id": 330
+  },
+  {
+    "word": "Teach",
+    "hindi": "सिखाना",
+    "meaning": "Show or explain to someone how to do something",
+    "example": "Can you teach me to swim?",
+    "id": 331
+  },
+  {
+    "word": "Team",
+    "hindi": "टीम",
+    "meaning": "A group of players forming one side",
+    "example": "Our team won the game.",
+    "id": 332
+  },
+  {
+    "word": "Tell",
+    "hindi": "बताना",
+    "meaning": "Communicate information",
+    "example": "Tell me a story.",
+    "id": 333
+  },
+  {
+    "word": "Test",
+    "hindi": "परीक्षण",
+    "meaning": "A procedure intended to establish the quality",
+    "example": "I have a math test today.",
+    "id": 334
+  },
+  {
+    "word": "Thank",
+    "hindi": "धन्यवाद",
+    "meaning": "Express gratitude to",
+    "example": "Thank you for the gift.",
+    "id": 335
+  },
+  {
+    "word": "That",
+    "hindi": "वह",
+    "meaning": "Used to identify a specific person or thing",
+    "example": "That is my car.",
+    "id": 336
+  },
+  {
+    "word": "Then",
+    "hindi": "तब / फिर",
+    "meaning": "At that time",
+    "example": "Finish your homework, then you can play.",
+    "id": 337
+  },
+  {
+    "word": "Thing",
+    "hindi": "चीज़",
+    "meaning": "An object that one need not, cannot, or does not wish to give a specific name to",
+    "example": "What is that thing?",
+    "id": 338
+  },
+  {
+    "word": "Think",
+    "hindi": "सोचना",
+    "meaning": "Have a particular opinion, belief, or idea",
+    "example": "I think it will rain.",
+    "id": 339
+  },
+  {
+    "word": "Time",
+    "hindi": "समय",
+    "meaning": "The indefinite continued progress of existence",
+    "example": "What time is it?",
+    "id": 340
+  },
+  {
+    "word": "Today",
+    "hindi": "आज",
+    "meaning": "On or in the course of this present day",
+    "example": "Today is a beautiful day.",
+    "id": 341
+  },
+  {
+    "word": "Ugly",
+    "hindi": "बदसूरत",
+    "meaning": "Unpleasant or repulsive",
+    "example": "The witch was old and ugly.",
+    "id": 342
+  },
+  {
+    "word": "Umbrella",
+    "hindi": "छाता",
+    "meaning": "A device used for protection against rain",
+    "example": "Take an umbrella with you.",
+    "id": 343
+  },
+  {
+    "word": "Uncle",
+    "hindi": "चाचा",
+    "meaning": "The brother of one's father or mother",
+    "example": "My uncle gave me a present.",
+    "id": 344
+  },
+  {
+    "word": "Under",
+    "hindi": "नीचे",
+    "meaning": "Extending or directly below",
+    "example": "The cat is under the table.",
+    "id": 345
+  },
+  {
+    "word": "Understand",
+    "hindi": "समझना",
+    "meaning": "Perceive the intended meaning",
+    "example": "I don't understand the question.",
+    "id": 346
+  },
+  {
+    "word": "Unit",
+    "hindi": "इकाई",
+    "meaning": "An individual thing or person regarded as single",
+    "example": "A meter is a unit of length.",
+    "id": 347
+  },
+  {
+    "word": "Until",
+    "hindi": "जब तक",
+    "meaning": "Up to the point in time",
+    "example": "Wait here until I come back.",
+    "id": 348
+  },
+  {
+    "word": "Up",
+    "hindi": "ऊपर",
+    "meaning": "Toward a higher place",
+    "example": "Look up at the sky.",
+    "id": 349
+  },
+  {
+    "word": "Use",
+    "hindi": "उपयोग",
+    "meaning": "Take, hold, or deploy as a means",
+    "example": "Can I use your pen?",
+    "id": 350
+  },
+  {
+    "word": "Usually",
+    "hindi": "आमतौर पर",
+    "meaning": "Under normal conditions",
+    "example": "I usually wake up at 7 AM.",
+    "id": 351
+  },
+  {
+    "word": "Vacation",
+    "hindi": "छुट्टी",
+    "meaning": "An extended period of leisure",
+    "example": "We are going on vacation.",
+    "id": 352
+  },
+  {
+    "word": "Valley",
+    "hindi": "घाटी",
+    "meaning": "A low area of land between hills",
+    "example": "The river flows through the valley.",
+    "id": 353
+  },
+  {
+    "word": "Value",
+    "hindi": "मूल्य",
+    "meaning": "The regard that something is held to deserve",
+    "example": "The ring has great value.",
+    "id": 354
+  },
+  {
+    "word": "Various",
+    "hindi": "विभिन्न",
+    "meaning": "Different from one another",
+    "example": "There are various types of birds.",
+    "id": 355
+  },
+  {
+    "word": "Vegetable",
+    "hindi": "सब्जी",
+    "meaning": "A plant or part of a plant used as food",
+    "example": "Carrot is a healthy vegetable.",
+    "id": 356
+  },
+  {
+    "word": "Very",
+    "hindi": "बहुत",
+    "meaning": "In a high degree",
+    "example": "I am very tired.",
+    "id": 357
+  },
+  {
+    "word": "Victory",
+    "hindi": "जीत",
+    "meaning": "An act of defeating an enemy",
+    "example": "The team celebrated their victory.",
+    "id": 358
+  },
+  {
+    "word": "View",
+    "hindi": "दृश्य",
+    "meaning": "The ability to see something",
+    "example": "The view from the mountain is amazing.",
+    "id": 359
+  },
+  {
+    "word": "Village",
+    "hindi": "गांव",
+    "meaning": "A group of houses in a rural area",
+    "example": "My grandparents live in a village.",
+    "id": 360
+  },
+  {
+    "word": "Voice",
+    "hindi": "आवाज़",
+    "meaning": "The sound produced in a person's larynx",
+    "example": "She has a beautiful singing voice.",
+    "id": 361
+  },
+  {
+    "word": "Wait",
+    "hindi": "इंतजार",
+    "meaning": "Stay where one is or delay action",
+    "example": "Please wait for me.",
+    "id": 362
+  },
+  {
+    "word": "Walk",
+    "hindi": "चलना",
+    "meaning": "Move at a regular pace",
+    "example": "Let's take a walk in the park.",
+    "id": 363
+  },
+  {
+    "word": "Wall",
+    "hindi": "दीवार",
+    "meaning": "A continuous vertical brick or stone structure",
+    "example": "The picture is hanging on the wall.",
+    "id": 364
+  },
+  {
+    "word": "Want",
+    "hindi": "चाहना",
+    "meaning": "Have a desire to possess or do",
+    "example": "I want an ice cream.",
+    "id": 365
+  },
+  {
+    "word": "Warm",
+    "hindi": "गर्म",
+    "meaning": "Of or at a fairly or comfortably high temperature",
+    "example": "The sun feels warm.",
+    "id": 366
+  },
+  {
+    "word": "Wash",
+    "hindi": "धोना",
+    "meaning": "Clean with water",
+    "example": "Wash your hands before eating.",
+    "id": 367
+  },
+  {
+    "word": "Watch",
+    "hindi": "देखना / घड़ी",
+    "meaning": "Look at or observe attentively",
+    "example": "I like to watch TV.",
+    "id": 368
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "meaning": "A colorless, transparent, odorless liquid",
+    "example": "Drink plenty of water.",
+    "id": 369
+  },
+  {
+    "word": "Way",
+    "hindi": "रास्ता",
+    "meaning": "A method, style, or manner of doing something",
+    "example": "This is the right way.",
+    "id": 370
+  },
+  {
+    "word": "We",
+    "hindi": "हम",
+    "meaning": "Used by a speaker to refer to himself or herself and one or more other people",
+    "example": "We are going to the zoo.",
+    "id": 371
+  },
+  {
+    "word": "Weak",
+    "hindi": "कमज़ोर",
+    "meaning": "Lacking the power to perform physically demanding tasks",
+    "example": "He felt weak after being sick.",
+    "id": 372
+  },
+  {
+    "word": "Wear",
+    "hindi": "पहनना",
+    "meaning": "Have on one's body",
+    "example": "Wear a jacket, it's cold.",
+    "id": 373
+  },
+  {
+    "word": "Weather",
+    "hindi": "मौसम",
+    "meaning": "The state of the atmosphere",
+    "example": "The weather is sunny today.",
+    "id": 374
+  },
+  {
+    "word": "Week",
+    "hindi": "सप्ताह",
+    "meaning": "A period of seven days",
+    "example": "There are seven days in a week.",
+    "id": 375
+  },
+  {
+    "word": "Welcome",
+    "hindi": "स्वागत",
+    "meaning": "An instance or manner of greeting someone",
+    "example": "Welcome to our home.",
+    "id": 376
+  },
+  {
+    "word": "Well",
+    "hindi": "अच्छा / कुआं",
+    "meaning": "In a good or satisfactory way",
+    "example": "She sings very well.",
+    "id": 377
+  },
+  {
+    "word": "X-ray",
+    "hindi": "एक्स-रे",
+    "meaning": "An electromagnetic wave",
+    "example": "The doctor took an x-ray of my arm.",
+    "id": 378
+  },
+  {
+    "word": "Xylophone",
+    "hindi": "जलतरंग",
+    "meaning": "A musical instrument",
+    "example": "The baby plays with a toy xylophone.",
+    "id": 379
+  },
+  {
+    "word": "Yard",
+    "hindi": "आंगन",
+    "meaning": "A piece of uncultivated ground",
+    "example": "The kids are playing in the yard.",
+    "id": 380
+  },
+  {
+    "word": "Year",
+    "hindi": "वर्ष",
+    "meaning": "The time taken by the earth to make one revolution around the sun",
+    "example": "There are 12 months in a year.",
+    "id": 381
+  },
+  {
+    "word": "Yellow",
+    "hindi": "पीला",
+    "meaning": "The color between green and orange in the spectrum",
+    "example": "The sun is yellow.",
+    "id": 382
+  },
+  {
+    "word": "Yes",
+    "hindi": "हां",
+    "meaning": "Used to give an affirmative response",
+    "example": "Yes, I can help you.",
+    "id": 383
+  },
+  {
+    "word": "Yesterday",
+    "hindi": "कल (बीता हुआ)",
+    "meaning": "On the day before today",
+    "example": "I saw him yesterday.",
+    "id": 384
+  },
+  {
+    "word": "Yet",
+    "hindi": "अभी तक",
+    "meaning": "Up until the present or a specified time",
+    "example": "Are we there yet?",
+    "id": 385
+  },
+  {
+    "word": "You",
+    "hindi": "तुम / आप",
+    "meaning": "Used to refer to the person being addressed",
+    "example": "How are you?",
+    "id": 386
+  },
+  {
+    "word": "Young",
+    "hindi": "युवा",
+    "meaning": "Having lived or existed for only a short time",
+    "example": "The puppy is very young.",
+    "id": 387
+  },
+  {
+    "word": "Zero",
+    "hindi": "शून्य",
+    "meaning": "No quantity or number",
+    "example": "Three minus three is zero.",
+    "id": 388
+  },
+  {
+    "word": "Zone",
+    "hindi": "क्षेत्र",
+    "meaning": "An area or stretch of land",
+    "example": "This is a quiet zone.",
+    "id": 389
+  },
+  {
+    "word": "Zoo",
+    "hindi": "चिड़ियाघर",
+    "meaning": "An establishment which maintains a collection of wild animals",
+    "example": "We saw monkeys at the zoo.",
+    "id": 390
+  }
+]
