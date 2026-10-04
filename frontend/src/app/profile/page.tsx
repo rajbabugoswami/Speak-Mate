@@ -21,18 +21,77 @@ export default function ProfilePage() {
     });
   }, []);
 
-  const handleNotImplemented = () => {
-    alert("This feature will be available in the next update!");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalType, setModalType] = useState<"name" | "alert">("alert");
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalMessage, setModalMessage] = useState("");
+  const [tempName, setTempName] = useState("");
+
+  const openAlert = (title: string, message: string) => {
+    setModalTitle(title);
+    setModalMessage(message);
+    setModalType("alert");
+    setIsModalOpen(true);
   };
 
-  const handleSignOut = () => {
-    localStorage.removeItem("userName");
-    window.location.href = "/login";
+  const openNameEdit = () => {
+    setTempName(userName.replace(" Sharma", ""));
+    setModalType("name");
+    setIsModalOpen(true);
+  };
+
+  const saveName = () => {
+    if (tempName) {
+      localStorage.setItem("userName", tempName);
+      setUserName(tempName + " Sharma");
+    }
+    setIsModalOpen(false);
   };
 
   return (
-    <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 flex flex-col font-sans">
+    <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 flex flex-col font-sans relative">
       <Header />
+
+      {/* Custom Modal Popup */}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl"
+          >
+            {modalType === "alert" ? (
+              <>
+                <h3 className="text-xl font-black text-slate-800 mb-2">{modalTitle}</h3>
+                <p className="text-slate-600 mb-6 font-medium">{modalMessage}</p>
+                <button onClick={() => setIsModalOpen(false)} className="w-full bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition-colors">
+                  Got it!
+                </button>
+              </>
+            ) : (
+              <>
+                <h3 className="text-xl font-black text-slate-800 mb-2">Edit Account</h3>
+                <p className="text-slate-600 mb-4 font-medium text-sm">Update your display name.</p>
+                <input 
+                  type="text" 
+                  value={tempName}
+                  onChange={(e) => setTempName(e.target.value)}
+                  className="w-full border-2 border-slate-200 rounded-xl px-4 py-3 mb-6 focus:border-blue-500 outline-none font-bold text-slate-800"
+                  placeholder="Your Name"
+                />
+                <div className="flex gap-3">
+                  <button onClick={() => setIsModalOpen(false)} className="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-xl hover:bg-slate-200 transition-colors">
+                    Cancel
+                  </button>
+                  <button onClick={saveName} className="flex-1 bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition-colors">
+                    Save
+                  </button>
+                </div>
+              </>
+            )}
+          </motion.div>
+        </div>
+      )}
       
       <div className="flex-1 container mx-auto px-4 py-8 max-w-3xl">
         
@@ -49,7 +108,7 @@ export default function ProfilePage() {
               <div className="w-28 h-28 rounded-full bg-slate-200 overflow-hidden ring-4 ring-white shadow-xl">
                 <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${userName}`} alt="Profile" className="w-full h-full object-cover" />
               </div>
-              <button onClick={handleNotImplemented} className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
+              <button onClick={openNameEdit} className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
                 <Edit3 className="w-4 h-4" />
               </button>
             </div>
@@ -112,14 +171,7 @@ export default function ProfilePage() {
           
           <div className="divide-y divide-slate-50">
             <button 
-              onClick={() => {
-                const newName = prompt("Enter your new name:", userName.replace(" Sharma", ""));
-                if (newName) {
-                  localStorage.setItem("userName", newName);
-                  setUserName(newName + " Sharma");
-                  alert("Name updated successfully!");
-                }
-              }} 
+              onClick={openNameEdit} 
               className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group"
             >
               <div className="flex items-center gap-4">
@@ -134,7 +186,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={() => alert("All practice reminders are currently ON by default.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => openAlert("Notifications", "All practice reminders are currently ON by default.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Bell className="w-5 h-5" />
@@ -147,7 +199,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={() => alert("Your account is secured with local storage encryption.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => openAlert("Privacy & Security", "Your account is secured with local storage encryption.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Shield className="w-5 h-5" />
@@ -160,7 +212,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={() => alert("Contact support at: support@speakmate.com")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => openAlert("Help & Support", "Contact our team at: support@speakmate.com")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <HelpCircle className="w-5 h-5" />
