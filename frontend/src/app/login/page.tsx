@@ -61,7 +61,14 @@ export default function LoginPage() {
                 exit={{ opacity: 0, x: 20 }}
               >
                 {/* Google Sign In */}
-                <button className="w-full bg-white border-2 border-slate-200 text-slate-700 font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors mb-6 shadow-sm">
+                <button 
+                  type="button"
+                  onClick={() => {
+                    localStorage.setItem("userName", "Google User");
+                    window.location.href = "/";
+                  }}
+                  className="w-full bg-white border-2 border-slate-200 text-slate-700 font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors mb-6 shadow-sm"
+                >
                   <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" className="w-5 h-5" />
                   Continue with Google
                 </button>
