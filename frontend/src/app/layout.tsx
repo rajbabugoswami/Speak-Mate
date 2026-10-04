@@ -27,6 +27,17 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-background text-foreground min-h-screen overflow-x-hidden w-full max-w-[100vw]`}>
         {children}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js');
+                });
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );
