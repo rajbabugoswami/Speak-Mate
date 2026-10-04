@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
 import { User, Settings, Shield, Bell, HelpCircle, LogOut, Flame, Trophy, Star, ChevronRight, Edit3, BookOpen, Mic } from "lucide-react";
@@ -7,6 +8,28 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function ProfilePage() {
+  const [userName, setUserName] = useState<string>("Felix Sharma");
+  const [statsData, setStatsData] = useState({ streak: "0", words: "0" });
+
+  useEffect(() => {
+    const name = localStorage.getItem("userName");
+    if (name) setUserName(name + " Sharma"); // Added Sharma just to match the UI feel
+    
+    setStatsData({
+      streak: localStorage.getItem("dayStreak") || "1",
+      words: localStorage.getItem("wordsLearnt") || "12"
+    });
+  }, []);
+
+  const handleNotImplemented = () => {
+    alert("This feature will be available in the next update!");
+  };
+
+  const handleSignOut = () => {
+    localStorage.removeItem("userName");
+    window.location.href = "/login";
+  };
+
   return (
     <main className="min-h-screen pb-20 md:pb-0 bg-slate-50 flex flex-col font-sans">
       <Header />
@@ -24,15 +47,15 @@ export default function ProfilePage() {
           <div className="flex flex-col md:flex-row items-center gap-6 relative z-10">
             <div className="relative">
               <div className="w-28 h-28 rounded-full bg-slate-200 overflow-hidden ring-4 ring-white shadow-xl">
-                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Felix" className="w-full h-full object-cover" />
+                <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${userName}`} alt="Profile" className="w-full h-full object-cover" />
               </div>
-              <button className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
+              <button onClick={handleNotImplemented} className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
                 <Edit3 className="w-4 h-4" />
               </button>
             </div>
             
             <div className="text-center md:text-left flex-1">
-              <h1 className="text-3xl font-black text-slate-800">Felix Sharma</h1>
+              <h1 className="text-3xl font-black text-slate-800">{userName}</h1>
               <p className="text-slate-500 font-medium mb-3">+91 98765 43210</p>
               
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
@@ -56,17 +79,17 @@ export default function ProfilePage() {
         >
           <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-orange-200 hover:shadow-md transition-all">
             <Flame className="w-8 h-8 text-orange-500 mb-2" />
-            <h3 className="text-2xl font-black text-slate-800">12</h3>
+            <h3 className="text-2xl font-black text-slate-800">{statsData.streak}</h3>
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Day Streak</p>
           </div>
           <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-blue-200 hover:shadow-md transition-all">
             <Trophy className="w-8 h-8 text-blue-500 mb-2" />
-            <h3 className="text-2xl font-black text-slate-800">4,250</h3>
+            <h3 className="text-2xl font-black text-slate-800">{parseInt(statsData.words) * 15}</h3>
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total XP</p>
           </div>
           <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-purple-200 hover:shadow-md transition-all">
             <BookOpen className="w-8 h-8 text-purple-500 mb-2" />
-            <h3 className="text-2xl font-black text-slate-800">48</h3>
+            <h3 className="text-2xl font-black text-slate-800">12</h3>
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Lessons</p>
           </div>
           <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center hover:border-green-200 hover:shadow-md transition-all">
@@ -88,7 +111,7 @@ export default function ProfilePage() {
           </div>
           
           <div className="divide-y divide-slate-50">
-            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <User className="w-5 h-5" />
@@ -101,7 +124,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Bell className="w-5 h-5" />
@@ -114,7 +137,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Shield className="w-5 h-5" />
@@ -127,7 +150,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <HelpCircle className="w-5 h-5" />
@@ -148,9 +171,9 @@ export default function ProfilePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <Link href="/login" className="w-full bg-white text-red-500 font-bold border-2 border-red-100 py-4 rounded-2xl hover:bg-red-50 transition-colors flex items-center justify-center gap-2 shadow-sm">
+          <button onClick={handleSignOut} className="w-full bg-white text-red-500 font-bold border-2 border-red-100 py-4 rounded-2xl hover:bg-red-50 transition-colors flex items-center justify-center gap-2 shadow-sm">
             <LogOut className="w-5 h-5" /> Sign Out
-          </Link>
+          </button>
           <p className="text-center text-slate-400 text-xs font-bold mt-4 uppercase tracking-widest">SpeakMate App Version 1.0.0</p>
         </motion.div>
 
