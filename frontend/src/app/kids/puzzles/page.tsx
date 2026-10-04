@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import BottomNav from "@/components/layout/BottomNav";
+import { addPointsToStats } from "@/lib/utils";
 import { Star, Zap, Home, RotateCcw, ArrowLeft, CheckCircle2, XCircle, Trophy, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -584,7 +585,11 @@ export default function PuzzlesPage() {
   const [stars, setStars] = useState(0);
   const [xp, setXp] = useState(0);
 
-  const addStars = (n:number, x:number) => { setStars(s=>s+n); setXp(p=>p+x); };
+  const addStars = (n:number, x:number) => { 
+    setStars(s=>s+n); 
+    setXp(p=>p+x); 
+    addPointsToStats(1, 1); // Add 1 word and 1 speaking minute to dashboard stats
+  };
 
   const puzzles = [
     {
