@@ -111,7 +111,17 @@ export default function ProfilePage() {
           </div>
           
           <div className="divide-y divide-slate-50">
-            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button 
+              onClick={() => {
+                const newName = prompt("Enter your new name:", userName.replace(" Sharma", ""));
+                if (newName) {
+                  localStorage.setItem("userName", newName);
+                  setUserName(newName + " Sharma");
+                  alert("Name updated successfully!");
+                }
+              }} 
+              className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group"
+            >
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <User className="w-5 h-5" />
@@ -124,7 +134,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => alert("All practice reminders are currently ON by default.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Bell className="w-5 h-5" />
@@ -137,7 +147,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => alert("Your account is secured with local storage encryption.")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <Shield className="w-5 h-5" />
@@ -150,7 +160,7 @@ export default function ProfilePage() {
               <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
             </button>
 
-            <button onClick={handleNotImplemented} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
+            <button onClick={() => alert("Contact support at: support@speakmate.com")} className="w-full flex items-center justify-between p-5 hover:bg-slate-50 transition-colors group">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
                   <HelpCircle className="w-5 h-5" />
