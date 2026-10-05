@@ -15,10 +15,10 @@ export default function DashboardStats() {
   useEffect(() => {
     // Load real stats from localStorage
     setStatsData({
-      streak: localStorage.getItem("dayStreak") || "1",
-      goal: localStorage.getItem("dailyGoal") || "10%",
-      words: localStorage.getItem("wordsLearnt") || "12",
-      mins: localStorage.getItem("speakingMin") || "5"
+      streak: localStorage.getItem("dayStreak") || "0",
+      goal: localStorage.getItem("dailyGoal") || "0%",
+      words: localStorage.getItem("wordsLearnt") || "0",
+      mins: localStorage.getItem("speakingMin") || "0"
     });
   }, []);
 

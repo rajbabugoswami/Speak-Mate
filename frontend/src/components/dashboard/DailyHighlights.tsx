@@ -2,11 +2,52 @@
 
 import { PlayCircle, ArrowRight, Sparkles, BookOpen, Volume2 } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import vocabularyData from "@/data/vocabulary.json";
 
 export default function DailyHighlights() {
   const [isPlayingSentence, setIsPlayingSentence] = useState(false);
   const [isPlayingWord, setIsPlayingWord] = useState(false);
+  
+  const [dailySentence, setDailySentence] = useState({ text: "The journey of a thousand miles begins with a single step.", meaning: "Great things start with small beginnings." });
+  const [wordOfDay, setWordOfDay] = useState({ word: "Resilient", meaning: "Able to withstand or recover quickly from difficult conditions.", example: "She showed how resilient she was by bouncing back after the failure." });
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    try {
+      const allWords = vocabularyData.flatMap(cat => cat.words);
+      if (allWords.length > 0) {
+        // Use today's date as a seed so it remains the same for the entire day
+        const today = new Date();
+        const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+        
+        const random = (s: number) => {
+          let x = Math.sin(s) * 10000;
+          return x - Math.floor(x);
+        };
+
+        const wordIndex = Math.floor(random(seed) * allWords.length);
+        const sentenceIndex = Math.floor(random(seed + 1) * allWords.length);
+
+        const w = allWords[wordIndex];
+        const s = allWords[sentenceIndex];
+
+        setWordOfDay({
+          word: w.word,
+          meaning: w.meaning,
+          example: w.example || `Let's learn the word ${w.word}.`
+        });
+
+        setDailySentence({
+          text: s.example || `A good way to use the word ${s.word}.`,
+          meaning: s.hindi || s.meaning
+        });
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    setIsLoaded(true);
+  }, []);
 
   const speakText = (text: string, type: 'sentence' | 'word') => {
     if (typeof window !== "undefined" && window.speechSynthesis) {
@@ -27,6 +68,8 @@ export default function DailyHighlights() {
     }
   };
 
+  if (!isLoaded) return null;
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
       {/* Daily Sentence */}
@@ -41,15 +84,15 @@ export default function DailyHighlights() {
         </div>
         
         <p className="text-2xl font-black text-slate-900 dark:text-white mb-2 relative z-10 leading-tight">
-          "The journey of a thousand miles begins with a single step."
+          "{dailySentence.text}"
         </p>
         <p className="text-sm font-bold text-slate-600 dark:text-slate-400 mb-6 relative z-10 bg-slate-50 dark:bg-[#0f172a] inline-block px-3 py-1.5 rounded-lg border border-slate-100 dark:border-slate-700">
-          <span className="text-blue-600 dark:text-blue-400 mr-2">Meaning:</span>Great things start with small beginnings.
+          <span className="text-blue-600 dark:text-blue-400 mr-2">Meaning:</span>{dailySentence.meaning}
         </p>
         
         <div className="flex items-center gap-3 relative z-10 mt-auto">
           <button 
-            onClick={() => speakText("The journey of a thousand miles begins with a single step.", 'sentence')}
+            onClick={() => speakText(dailySentence.text, 'sentence')}
             className={`w-12 h-12 rounded-full flex items-center justify-center transition-all border ${
               isPlayingSentence 
                 ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30 animate-pulse border-blue-600 dark:border-blue-500' 
@@ -80,17 +123,16 @@ export default function DailyHighlights() {
         </div>
 
         <div className="flex items-end gap-3 mb-3 relative z-10">
-          <h2 className="text-4xl font-black tracking-tight">Resilient</h2>
-          <span className="text-white/70 font-medium text-lg mb-1 bg-white/10 px-2 py-0.5 rounded-md">/rɪˈzɪl.i.ənt/</span>
+          <h2 className="text-4xl font-black tracking-tight capitalize">{wordOfDay.word}</h2>
         </div>
         
         <p className="text-white/90 mb-8 font-medium text-lg leading-snug relative z-10 max-w-[90%]">
-          Able to withstand or recover quickly from difficult conditions.
+          {wordOfDay.meaning}
         </p>
         
         <div className="flex items-center gap-3 relative z-10 mt-auto">
           <button 
-            onClick={() => speakText("Resilient", 'word')}
+            onClick={() => speakText(wordOfDay.word, 'word')}
             className={`w-12 h-12 rounded-full flex items-center justify-center transition-all backdrop-blur-md ${
               isPlayingWord 
                 ? 'bg-white text-purple-600 shadow-lg animate-pulse' 
@@ -101,7 +143,7 @@ export default function DailyHighlights() {
           </button>
           
           <button 
-            onClick={() => speakText("She showed how resilient she was by bouncing back after the failure.", 'word')}
+            onClick={() => speakText(wordOfDay.example, 'word')}
             className="flex-1 bg-white text-purple-700 font-bold rounded-full py-3 px-6 text-center hover:bg-slate-50 transition-colors shadow-lg flex items-center justify-center gap-2"
           >
             Play Example <ArrowRight className="w-4 h-4" />
