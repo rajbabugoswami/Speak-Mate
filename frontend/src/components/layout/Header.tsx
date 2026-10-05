@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full glass border-b border-border bg-white/80 backdrop-blur-md relative">
+      <header className="sticky top-0 z-40 w-full glass border-b border-border bg-white/80 backdrop-blur-md">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-md uppercase">
