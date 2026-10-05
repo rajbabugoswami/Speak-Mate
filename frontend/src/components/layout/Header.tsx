@@ -52,21 +52,21 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full glass border-b border-border bg-white/80 backdrop-blur-md">
+      <header className="sticky top-0 z-40 w-full bg-slate-900 border-b border-slate-800 shadow-sm">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-full bg-white overflow-hidden shadow-sm flex items-center justify-center border-2 border-white">
+            <div className="w-9 h-9 rounded-full bg-white overflow-hidden shadow-sm flex items-center justify-center border-2 border-slate-700">
               <img src="/logo.jpg" alt="Speak-Mate Logo" className="w-full h-full object-cover" />
             </div>
-            <Link href="/" onClick={closeDropdowns} className="font-black text-xl tracking-tight text-slate-800">
-              Speak<span className="text-blue-600">Mate</span>
+            <Link href="/" onClick={closeDropdowns} className="font-black text-xl tracking-tight text-white">
+              Speak<span className="text-blue-400">Mate</span>
             </Link>
           </div>
           
-          <div className="flex items-center gap-4 text-slate-500">
+          <div className="flex items-center gap-4 text-slate-400">
             <button 
               onClick={() => { closeDropdowns(); setIsSearchOpen(true); }}
-              className="hover:text-blue-600 transition-colors p-2 rounded-full hover:bg-blue-50"
+              className="hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-slate-800"
             >
               <Search className="w-5 h-5" />
             </button>
@@ -74,7 +74,7 @@ export default function Header() {
             <div className="relative">
               <button 
                 onClick={() => { setIsProfileOpen(false); setIsNotifOpen(!isNotifOpen); }}
-                className={`transition-colors p-2 rounded-full ${isNotifOpen ? 'bg-blue-50 text-blue-600' : 'hover:bg-blue-50 hover:text-blue-600'}`}
+                className={`transition-colors p-2 rounded-full ${isNotifOpen ? 'bg-slate-800 text-blue-400' : 'hover:bg-slate-800 hover:text-blue-400'}`}
               >
                 <Bell className="w-5 h-5" />
                 {notifications.length > 0 && (
