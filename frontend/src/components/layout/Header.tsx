@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full bg-slate-900 border-b border-slate-800 shadow-sm">
+      <header className="fixed top-0 left-0 z-40 w-full bg-slate-900 border-b border-slate-800 shadow-sm">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-full bg-white overflow-hidden shadow-sm flex items-center justify-center border-2 border-slate-700">
@@ -191,6 +191,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <div className="h-16 w-full shrink-0"></div>
 
       {/* Full Screen Search Overlay */}
       <AnimatePresence>
