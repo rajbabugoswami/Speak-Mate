@@ -19,7 +19,7 @@ export default function Home() {
       window.location.href = "/login";
     } else {
       setUserName(storedName);
-      setGoalMins(parseInt(localStorage.getItem("speakingMin") || "5"));
+      setGoalMins(parseInt(localStorage.getItem("speakingMin") || "0"));
     }
   }, []);
 
