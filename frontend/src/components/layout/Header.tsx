@@ -56,7 +56,7 @@ export default function Header() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-md uppercase">
-              {userName.charAt(0)}
+              S
             </div>
             <Link href="/" onClick={closeDropdowns} className="font-black text-xl tracking-tight text-slate-800">
               Speak<span className="text-blue-600">Mate</span>
